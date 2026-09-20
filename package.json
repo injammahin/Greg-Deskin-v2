@@ -1,0 +1,12 @@
+{
+  "name": "greg-deskin-site",
+  "private": true,
+  "version": "1.1.0",
+  "type": "module",
+  "engines": { "node": ">=20.6" },
+  "scripts": {
+    "build": "node project-docs/validate-site.mjs && node scripts/build.mjs",
+    "dev": "npm run build && node --env-file=.env server/dev-server.js",
+    "test": "node --test server/contact-handler.test.js"
+  }
+}
