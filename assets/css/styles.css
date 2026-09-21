@@ -161,13 +161,13 @@ p { margin: 0 0 1.1em; }
 }
 .hero::before { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(90deg, transparent 52%, rgba(255,255,255,.016)); }
 .hero-inner { position: relative; z-index: 1; min-height: 650px; display: grid; grid-template-columns: 1.05fr .95fr; gap: 26px; align-items: end; }
-.hero-copy { align-self: center; padding: 72px 0 76px; }
+.hero-copy { align-self: center; padding: 40px 0 40px; }
 .google-score { display: inline-flex; align-items: center; gap: 8px; min-height: 34px; padding: 7px 11px; border: 1px solid rgba(255,255,255,.2); border-radius: 7px; background: rgba(255,255,255,.08); color: #dfe3eb; font-size: .8rem; }
 .google-score:hover { color: #fff; }
 .google-g { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; background: conic-gradient(#4285f4 0 25%, #34a853 0 50%, #fbbc05 0 75%, #ea4335 0); color: #fff; font-size: .76rem; font-weight: 900; }
 .google-score .stars { color: #fff; letter-spacing: .04em; font-size: .72rem; }
 .score-check { display: inline-grid; place-items: center; width: 17px; height: 17px; border-radius: 50%; background: #2f80ed; color: white; font-size: .68rem; }
-.hero h1 { margin: 21px 0 6px; font-size: clamp(3.1rem, 5.4vw, 5rem); font-weight: 900; }
+.hero h1 { margin: 21px 0 6px; font-size: clamp(3.1rem, 4vw, 5rem); font-weight: 900; }
 .hero-role { margin: 0; font-size: clamp(1.18rem, 2vw, 1.45rem); font-weight: 720; }
 .hero-certificates { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
 .certificate { display: inline-flex; align-items: center; gap: 9px; min-height: 43px; padding: 8px 14px; border: 1px solid rgba(255,255,255,.2); border-radius: 999px; background: rgba(255,255,255,.08); color: #dfe3eb; font-size: .83rem; }
@@ -715,7 +715,7 @@ a.about-credential:hover { color: inherit; border-color: rgba(199,154,46,.55); t
 .contact-schedule-form { min-width: 0; }
 
 /* Footer: exact readable type, clean arrows and aligned trust badges */
-.site-footer, .site-footer p, .site-footer li, .site-footer a, .site-footer span { font-size: 15px; }
+.site-footer, .site-footer p, .site-footer li, .site-footer a, .site-footer span { font-size: 14px; }
 .footer-top h3 { font-size: 15px; }
 .footer-top li a { display: inline-flex; align-items: flex-start; }
 .footer-top li a::before { content: "›"; flex: 0 0 18px; width: 18px; margin: -1px 8px 0 0; color: #fff; font-size: 24px; font-weight: 400; line-height: .8; }
@@ -755,7 +755,7 @@ a.about-credential:hover { color: inherit; border-color: rgba(199,154,46,.55); t
   .contact-support-panel { order: 0; }
   .footer-bottom-links { flex-direction: column; gap: 12px; }
   .footer-trust-link, .equal-housing { white-space: normal; text-align: center; }
-  .site-footer, .site-footer p, .site-footer li, .site-footer a, .site-footer span, .footer-top h3 { font-size: 15px; }
+  .site-footer, .site-footer p, .site-footer li, .site-footer a, .site-footer span, .footer-top h3 { font-size: 14px; }
 }
 
 /* August 2026 requirements-completion pass */
@@ -771,7 +771,7 @@ a.about-credential:hover { color: inherit; border-color: rgba(199,154,46,.55); t
   max-width: 660px;
   margin: 14px 0 0;
   color: #d7dbe5;
-  font-size: clamp(1rem,1.35vw,1.15rem);
+  font-size: clamp(1rem,1.25vw,1.1rem);
   line-height: 1.65;
 }
 .hero-trust-chips {
@@ -784,14 +784,14 @@ a.about-credential:hover { color: inherit; border-color: rgba(199,154,46,.55); t
   display: grid;
   gap: 1px;
   min-width: 142px;
-  padding: 10px 13px;
+  padding: 6px 10px;
   border: 1px solid rgba(255,255,255,.19);
   border-radius: 7px;
   background: rgba(255,255,255,.055);
   color: #fff;
 }
 .hero-trust-chips a:hover { border-color: rgba(211,166,55,.8); background: rgba(211,166,55,.09); }
-.hero-trust-chips strong { font-size: .88rem; }
+.hero-trust-chips strong { font-size: .68rem; }
 .hero-trust-chips span { color: #adb5c4; font-size: .7rem; }
 .hero-actions-primary .btn { min-width: 260px; }
 .hero-secondary-actions {
@@ -801,11 +801,11 @@ a.about-credential:hover { color: inherit; border-color: rgba(199,154,46,.55); t
   gap: 9px;
   margin-top: 15px;
   color: #8f98a9;
-  font-size: .9rem;
+  font-size: .7rem;
 }
 .hero-secondary-actions a { color: #fff; font-weight: 760; text-decoration: underline; text-decoration-color: rgba(211,166,55,.72); text-underline-offset: 4px; }
 .hero-secondary-actions a:hover { color: #e8bd50; }
-.hero h1 { max-width: 720px; font-size: clamp(2.8rem,5vw,4.75rem); line-height: .99; }
+.hero h1 { max-width: 720px; font-size: clamp(2.8rem,4.2vw,4.75rem); line-height: .99; }
 .hero-help { margin-top: 24px; }
 .hero-help h2 { font-size: clamp(1.35rem,2vw,1.85rem); }
 

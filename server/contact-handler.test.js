@@ -6,7 +6,7 @@ const env = {
   BREVO_API_KEY: 'test-key',
   BREVO_SENDER_EMAIL: 'sender@example.org',
   BREVO_SENDER_NAME: 'Greg Deskin Website',
-  CONTACT_RECIPIENT_EMAIL: 'Gdeskin@WestCapitalLending.com'
+  CONTACT_RECIPIENT_EMAIL: 'GDeskin@WestCapitalLending.com'
 };
 const lead = {
   form_type: 'lead', name: 'Jane Borrower', email: 'jane@example.com', phone: '(949) 555-1234',
