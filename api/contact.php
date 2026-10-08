@@ -907,7 +907,8 @@ $sent = mail(
     implode(
         "\r\n",
         $headers
-    )
+    ),
+    '-f' . $senderEmail
 );
 
 /*
