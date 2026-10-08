@@ -493,7 +493,7 @@
         }
 
         form.reset();
-        toast('Request received', 'Thank you. Greg’s team will contact you soon.');
+        toast('Request received', 'Thank you. Greg will contact you soon.');
         closeModal(form.closest('.modal-backdrop'));
       } catch (error) {
         console.error(error);
