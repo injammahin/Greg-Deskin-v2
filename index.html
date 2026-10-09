@@ -1,358 +1,1192 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
-<title>Greg Deskin | Residential / Commercial Loan Broker</title>
-<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="d2ca8e0a-6a9c-471f-97e9-06ca1f4fdc80" data-blockingmode="auto" type="text/javascript"></script>
-<meta content="Work directly with Greg Deskin for home purchase, refinance, HELOC and specialised mortgage guidance through West Capital Lending." name="description"/>
-<meta content="index,follow,max-image-preview:large" name="robots"/>
-<link href="https://gregdeskin.com/" rel="canonical"/>
-<meta content="website" property="og:type"/><meta content="Greg Deskin | Residential / Commercial Loan Broker" property="og:title"/><meta content="Personal mortgage guidance for purchase, refinance, HELOC and specialised loan options." property="og:description"/><meta content="https://gregdeskin.com/" property="og:url"/><meta content="https://gregdeskin.com/assets/img/greg-deskin-portrait.png" property="og:image"/>
-<meta content="summary_large_image" name="twitter:card"/>
-<meta content="#101010" name="theme-color"/>
-<link href="favicon-64.png" rel="icon" sizes="64x64" type="image/png"/><link href="favicon.png" rel="apple-touch-icon"/><link href="site.webmanifest" rel="manifest"/>
-<link href="assets/css/styles.css" rel="stylesheet"/>
-<style>
-/* Homepage video only. The rest of the site's stylesheet stays unchanged. */
-body.home-simple .hero-inner {
-  width: min(calc(100% - 48px), 1460px);
-  grid-template-columns: minmax(0, .91fr) minmax(0, 1.09fr);
-  gap: clamp(20px, 3vw, 44px);
-}
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+      name="viewport"
+    />
+    <title>Greg Deskin | Residential / Commercial Loan Broker</title>
+    <script
+      id="Cookiebot"
+      src="https://consent.cookiebot.com/uc.js"
+      data-cbid="d2ca8e0a-6a9c-471f-97e9-06ca1f4fdc80"
+      data-blockingmode="auto"
+      type="text/javascript"
+    ></script>
+    <meta
+      content="Work directly with Greg Deskin for home purchase, refinance, HELOC and specialised mortgage guidance through West Capital Lending."
+      name="description"
+    />
+    <meta content="index,follow,max-image-preview:large" name="robots" />
+    <link href="https://gregdeskin.com/" rel="canonical" />
+    <meta content="website" property="og:type" />
+    <meta
+      content="Greg Deskin | Residential / Commercial Loan Broker"
+      property="og:title"
+    />
+    <meta
+      content="Personal mortgage guidance for purchase, refinance, HELOC and specialised loan options."
+      property="og:description"
+    />
+    <meta content="https://gregdeskin.com/" property="og:url" />
+    <meta
+      content="https://gregdeskin.com/assets/img/greg-deskin-portrait.png"
+      property="og:image"
+    />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="#101010" name="theme-color" />
+    <link href="favicon-64.png" rel="icon" sizes="64x64" type="image/png" />
+    <link href="favicon.png" rel="apple-touch-icon" />
+    <link href="site.webmanifest" rel="manifest" />
+    <link href="assets/css/styles.css" rel="stylesheet" />
+    <style>
+      /* Homepage video only. The rest of the site's stylesheet stays unchanged. */
+      body.home-simple .hero-inner {
+        width: min(calc(100% - 48px), 1460px);
+        grid-template-columns: minmax(0, 0.91fr) minmax(0, 1.09fr);
+        gap: clamp(20px, 3vw, 44px);
+      }
 
-body.home-simple .hero-video-visual {
-  min-width: 0;
-  min-height: 0;
-  align-self: center;
-  align-items: center;
-}
+      body.home-simple .hero-video-visual {
+        min-width: 0;
+        min-height: 0;
+        align-self: center;
+        align-items: center;
+      }
 
-body.home-simple .hero-video-player {
-  position: relative;
-  isolation: isolate;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, .18);
-  border-radius: 10px;
-  background: #08090e;
-  box-shadow: 0 24px 56px rgba(0, 0, 0, .42);
-}
+      body.home-simple .hero-video-player {
+        position: relative;
+        isolation: isolate;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 10px;
+        background: #08090e;
+        box-shadow: 0 24px 56px rgba(0, 0, 0, 0.42);
+      }
 
-body.home-simple .hero-video-poster,
-body.home-simple .hero-video-frame {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-}
+      body.home-simple .hero-video-poster,
+      body.home-simple .hero-video-frame {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
 
-body.home-simple .hero-video-poster {
-  z-index: 0;
-  object-fit: cover;
-}
+      body.home-simple .hero-video-poster {
+        z-index: 0;
+        object-fit: cover;
+      }
 
-body.home-simple .hero-video-frame {
-  z-index: 1;
-  border: 0;
-}
+      body.home-simple .hero-video-frame {
+        z-index: 1;
+        border: 0;
+      }
 
-body.home-simple .hero-video-controls {
-  position: absolute;
-  z-index: 3;
-  bottom: 16px;
-  left: 50%;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  padding: 5px;
-  transform: translateX(-50%);
-  border: 1px solid rgba(255, 255, 255, .2);
-  border-radius: 999px;
-  background: rgba(9, 12, 20, .82);
-  backdrop-filter: blur(12px);
-}
+      body.home-simple .hero-video-controls {
+        position: absolute;
+        z-index: 3;
+        bottom: 16px;
+        left: 50%;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 5px;
+        transform: translateX(-50%);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 999px;
+        background: rgba(9, 12, 20, 0.82);
+        backdrop-filter: blur(12px);
+      }
 
-body.home-simple .hero-video-controls button {
-  display: grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
-  padding: 10px;
-  border: 0;
-  border-radius: 50%;
-  background: transparent;
-  color: #fff;
-  cursor: pointer;
-}
+      body.home-simple .hero-video-controls button {
+        display: grid;
+        place-items: center;
+        width: 44px;
+        height: 44px;
+        padding: 10px;
+        border: 0;
+        border-radius: 50%;
+        background: transparent;
+        color: #fff;
+        cursor: pointer;
+      }
 
-body.home-simple .hero-video-controls button:hover:not(:disabled) {
-  background: rgba(255, 255, 255, .18);
-}
+      body.home-simple .hero-video-controls button:hover:not(:disabled) {
+        background: rgba(255, 255, 255, 0.18);
+      }
 
-body.home-simple .hero-video-controls button:focus-visible {
-  outline: 2px solid #fff;
-  outline-offset: 2px;
-}
+      body.home-simple .hero-video-controls button:focus-visible {
+        outline: 2px solid #fff;
+        outline-offset: 2px;
+      }
 
-body.home-simple .hero-video-controls button:disabled {
-  opacity: .45;
-  cursor: default;
-}
+      body.home-simple .hero-video-controls button:disabled {
+        opacity: 0.45;
+        cursor: default;
+      }
 
-body.home-simple .hero-video-controls button[hidden] {
-  display: none;
-}
+      body.home-simple .hero-video-controls button[hidden] {
+        display: none;
+      }
 
-body.home-simple .hero-video-controls svg {
-  width: 21px;
-  height: 21px;
-}
+      body.home-simple .hero-video-controls svg {
+        width: 21px;
+        height: 21px;
+      }
 
-body.home-simple .hero-video-controls .icon-pause,
-body.home-simple .hero-video-controls .icon-unmuted,
-body.home-simple .hero-video-controls .icon-compress,
-body.home-simple .hero-video-player.is-playing .icon-play,
-body.home-simple .hero-video-player.is-muted .icon-unmuted,
-body.home-simple .hero-video-player.is-fullscreen .icon-expand,
-body.home-simple .hero-video-player:not(.is-muted) .icon-muted {
-  display: none;
-}
+      body.home-simple .hero-video-controls .icon-pause,
+      body.home-simple .hero-video-controls .icon-unmuted,
+      body.home-simple .hero-video-controls .icon-compress,
+      body.home-simple .hero-video-player.is-playing .icon-play,
+      body.home-simple .hero-video-player.is-muted .icon-unmuted,
+      body.home-simple .hero-video-player.is-fullscreen .icon-expand,
+      body.home-simple .hero-video-player:not(.is-muted) .icon-muted {
+        display: none;
+      }
 
-body.home-simple .hero-video-player.is-playing .icon-pause,
-body.home-simple .hero-video-player:not(.is-muted) .icon-unmuted,
-body.home-simple .hero-video-player.is-fullscreen .icon-compress {
-  display: block;
-}
+      body.home-simple .hero-video-player.is-playing .icon-pause,
+      body.home-simple .hero-video-player:not(.is-muted) .icon-unmuted,
+      body.home-simple .hero-video-player.is-fullscreen .icon-compress {
+        display: block;
+      }
 
-body.home-simple .hero-video-player:fullscreen {
-  width: 100vw;
-  height: 100vh;
-  aspect-ratio: auto;
-  border: 0;
-  border-radius: 0;
-}
+      body.home-simple .hero-video-player:fullscreen {
+        width: 100vw;
+        height: 100vh;
+        aspect-ratio: auto;
+        border: 0;
+        border-radius: 0;
+      }
 
-body.home-simple .hero-video-player:fullscreen .hero-video-controls {
-  bottom: calc(24px + env(safe-area-inset-bottom));
-}
+      body.home-simple .hero-video-player:fullscreen .hero-video-controls {
+        bottom: calc(24px + env(safe-area-inset-bottom));
+      }
 
-@media (max-width: 900px) {
-  body.home-simple .hero-inner {
-    width: min(calc(100% - 28px), 780px);
-    grid-template-columns: minmax(0, 1fr);
-  }
+      @media (max-width: 900px) {
+        body.home-simple .hero-inner {
+          width: min(calc(100% - 28px), 780px);
+          grid-template-columns: minmax(0, 1fr);
+        }
 
-  body.home-simple .hero-video-visual {
-    min-height: 0;
-    padding-bottom: 44px;
-  }
-}
+        body.home-simple .hero-video-visual {
+          min-height: 0;
+          padding-bottom: 44px;
+        }
+      }
 
-@media (max-width: 480px) {
-  body.home-simple .hero-video-controls {
-    bottom: 8px;
-    gap: 2px;
-    padding: 4px;
-  }
+      @media (max-width: 480px) {
+        body.home-simple .hero-video-controls {
+          bottom: 8px;
+          gap: 2px;
+          padding: 4px;
+        }
 
-  body.home-simple .hero-video-controls button {
-    width: 38px;
-    height: 38px;
-    padding: 9px;
-  }
-}
-</style>
-<script defer="" src="assets/js/site-config.js"></script><script defer="" src="assets/js/main.js"></script>
-<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"https://gregdeskin.com/#greg-deskin","name":"Greg Deskin","jobTitle":"Residential / Commercial Loan Broker","url":"https://gregdeskin.com/","telephone":"+1-949-864-8178","identifier":[{"@type":"PropertyValue","propertyID":"NMLS","value":"1883221"},{"@type":"PropertyValue","propertyID":"California DRE","value":"02373263"}],"worksFor":{"@id":"https://gregdeskin.com/#business"}},{"@type":"FinancialService","@id":"https://gregdeskin.com/#business","name":"Greg Deskin at West Capital Lending","url":"https://gregdeskin.com/","telephone":"+1-949-864-8178","address":{"@type":"PostalAddress","streetAddress":"17911 Von Karman Ave, Suite 400","addressLocality":"Irvine","addressRegion":"CA","postalCode":"92614","addressCountry":"US"},"employee":{"@id":"https://gregdeskin.com/#greg-deskin"}}]}</script>
-<meta content="Greg Deskin, NMLS 1883221" name="author"/></head>
-<body class="home-simple" data-loan-drawer="enabled"><a class="skip-link" href="#main-content">Skip to main content</a>
-<header class="site-header" data-header="">
-<div class="container header-inner">
-<a aria-label="Greg Deskin home" class="brand" href="./"><picture><source srcset="assets/img/greg-deskin-logo.webp" type="image/webp"/><img alt="Greg Deskin Mortgage and Real Estate" height="240" src="assets/img/greg-deskin-logo.png" width="720"/></picture></a>
-<nav aria-label="Primary navigation" class="main-nav" id="main-nav">
-<a href="about/">About Greg</a>
-<a class="js-form-modal" data-modal-title="Refinance" href="https://refinance-rate-checker-wcl-greg-deskin.secure-clix.com/">Refinance</a>
-<a class="js-form-modal" data-modal-title="HELOC Eligibility" href="https://heloc-eligibility-checker-wcl-greg-deskin.secure-clix.com/">HELOC</a>
-<a href="loan-types/">Loan Options</a>
-<a href="contact/">Contact Us</a>
-</nav>
-<a aria-label="Call Greg Deskin at 949 864 8178" class="header-phone" href="tel:+19498648178"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M8.5 12h7"></path></svg><span>(949) 864-8178</span></a>
-<a class="btn btn-sm header-apply" href="https://westcaplending.loanzify.io/" rel="noopener" target="_blank">Apply Now</a>
-<button aria-controls="main-nav" aria-expanded="false" aria-label="Open navigation" class="menu-toggle" id="menu-toggle"><span></span></button>
-</div>
-</header>
-<main id="main-content">
-<section aria-labelledby="hero-title" class="hero">
-<div class="container hero-inner">
-<div class="hero-copy">
-<!-- <a aria-label="4.8 out of 5 based on 3,728 Google reviews" class="google-score js-scroll-reviews" href="#reviews"><span class="google-g">G</span><strong>4.8</strong><span class="stars">★★★★★</span><span>(3,728)</span><span class="score-check">✓</span></a> -->
-<p class="hero-eyebrow">Greg Deskin · Residential / Commercial Loan Broker</p>
-<h1 id="hero-title">Get Pre-Approved Today</h1>
-<p class="hero-value">Clear mortgage guidance for home purchase, refinance and home equity goals, with direct access to Greg and a broad lender network.</p>
-<div aria-label="Professional licences" class="hero-certificates">
-<a class="certificate" href="/verification/nmls/"><span class="certificate-icon">#</span><span>NMLS</span><strong>1883221</strong></a>
-<span class="certificate"><span class="certificate-icon certificate-icon-light"></span><span>DRE</span><strong>02373263</strong></span>
-</div>
-<div aria-label="Experience and trust signals" class="hero-trust-chips">
-<a href="/reviews/experience/"><strong>Since 1991</strong><span>Industry experience</span></a>
-<a href="/about/"><strong>90+ lenders</strong><span>Broad comparison network</span></a>
-<a href="/verification/nmls/"><strong>Verified</strong><span>Licensing access</span></a>
-</div>
-<div class="hero-help"><h2>Start with one simple request.</h2><span aria-hidden="true" class="hand-arrow"><svg aria-hidden="true" fill="none" viewbox="0 0 72 52" xmlns="http://www.w3.org/2000/svg"><path d="M4 7c22 1 39 10 48 28" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path><path d="m43 29 10 7-2-13" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"></path></svg></span></div>
-<div class="hero-actions hero-actions-primary"><button class="btn btn-lg" data-open-lead="" type="button">Start My Pre-Approval</button></div>
-<div class="hero-secondary-actions"><a href="mailto:GDeskin@WestCapitalLending.com">Email Greg</a><span aria-hidden="true">•</span><a data-open-schedule="" href="#">Schedule a Call</a><span aria-hidden="true">•</span><a href="tel:+19498648178">Call (949) 864-8178</a></div>
-<p class="privacy-note"><span>✓</span>No SSN required. Zero impact to credit. Your information is never sold.</p>
-</div>
-<div class="hero-visual hero-video-visual">
-  <div
-    class="hero-video-player is-muted"
-    data-hero-video
-    role="group"
-    aria-label="Greg Deskin introduction video"
-  >
-    <img
-      class="hero-video-poster"
-      src="assets/img/greg.png"
-      alt=""
-      aria-hidden="true"
-    >
+        body.home-simple .hero-video-controls button {
+          width: 38px;
+          height: 38px;
+          padding: 9px;
+        }
+      }
+    </style>
+    <script defer="" src="assets/js/site-config.js"></script>
+    <script defer="" src="assets/js/main.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://gregdeskin.com/#greg-deskin",
+            "name": "Greg Deskin",
+            "jobTitle": "Residential / Commercial Loan Broker",
+            "url": "https://gregdeskin.com/",
+            "telephone": "+1-949-864-8178",
+            "identifier": [
+              {
+                "@type": "PropertyValue",
+                "propertyID": "NMLS",
+                "value": "1883221"
+              },
+              {
+                "@type": "PropertyValue",
+                "propertyID": "California DRE",
+                "value": "02373263"
+              }
+            ],
+            "worksFor": { "@id": "https://gregdeskin.com/#business" }
+          },
+          {
+            "@type": "FinancialService",
+            "@id": "https://gregdeskin.com/#business",
+            "name": "Greg Deskin at West Capital Lending",
+            "url": "https://gregdeskin.com/",
+            "telephone": "+1-949-864-8178",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "17911 Von Karman Ave, Suite 400",
+              "addressLocality": "Irvine",
+              "addressRegion": "CA",
+              "postalCode": "92614",
+              "addressCountry": "US"
+            },
+            "employee": { "@id": "https://gregdeskin.com/#greg-deskin" }
+          }
+        ]
+      }
+    </script>
+    <meta content="Greg Deskin, NMLS 1883221" name="author" />
+  </head>
+  <body class="home-simple" data-loan-drawer="enabled">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header" data-header="">
+      <div class="container header-inner">
+        <a aria-label="Greg Deskin home" class="brand" href="./"
+          ><picture
+            ><source
+              srcset="assets/img/greg-deskin-logo.webp"
+              type="image/webp" />
+            <img
+              alt="Greg Deskin Mortgage and Real Estate"
+              height="240"
+              src="assets/img/greg-deskin-logo.png"
+              width="720" /></picture
+        ></a>
+        <nav aria-label="Primary navigation" class="main-nav" id="main-nav">
+          <a href="about/">About Greg</a>
+          <a
+            class="js-form-modal"
+            data-modal-title="Refinance"
+            href="https://refinance-rate-checker-wcl-greg-deskin.secure-clix.com/"
+            >Refinance</a
+          >
+          <a
+            class="js-form-modal"
+            data-modal-title="HELOC Eligibility"
+            href="https://heloc-eligibility-checker-wcl-greg-deskin.secure-clix.com/"
+            >HELOC</a
+          >
+          <a href="loan-types/">Loan Options</a>
+          <a href="contact/">Contact Us</a>
+        </nav>
+        <a
+          aria-label="Call Greg Deskin at 949 864 8178"
+          class="header-phone"
+          href="tel:+19498648178"
+          ><svg
+            aria-hidden="true"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewbox="0 0 24 24"
+          >
+            <circle cx="12" cy="12" r="9"></circle>
+            <path d="M8.5 12h7"></path></svg
+          ><span>(949) 864-8178</span></a
+        >
+        <a
+          class="btn btn-sm header-apply"
+          href="https://westcaplending.loanzify.io/"
+          rel="noopener"
+          target="_blank"
+          >Apply Now</a
+        >
+        <button
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Open navigation"
+          class="menu-toggle"
+          id="menu-toggle"
+        >
+          <span></span>
+        </button>
+      </div>
+    </header>
+    <main id="main-content">
+      <section aria-labelledby="hero-title" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <!-- <a aria-label="4.8 out of 5 based on 3,728 Google reviews" class="google-score js-scroll-reviews" href="#reviews"><span class="google-g">G</span><strong>4.8</strong><span class="stars">★★★★★</span><span>(3,728)</span><span class="score-check">✓</span></a> -->
+            <p class="hero-eyebrow">
+              Greg Deskin · Residential / Commercial Loan Broker
+            </p>
+            <h1 id="hero-title">Get Pre-Approved Today</h1>
+            <p class="hero-value">
+              Clear mortgage guidance for home purchase, refinance and home
+              equity goals, with direct access to Greg and a broad lender
+              network.
+            </p>
+            <div aria-label="Professional licences" class="hero-certificates">
+              <a class="certificate" href="/verification/nmls/"
+                ><span class="certificate-icon">#</span><span>NMLS</span
+                ><strong>1883221</strong></a
+              >
+              <span class="certificate"
+                ><span class="certificate-icon certificate-icon-light"></span
+                ><span>DRE</span><strong>02373263</strong></span
+              >
+            </div>
+            <div
+              aria-label="Experience and trust signals"
+              class="hero-trust-chips"
+            >
+              <a href="/reviews/experience/"
+                ><strong>Since 1991</strong><span>Industry experience</span></a
+              >
+              <a href="/about/"
+                ><strong>90+ lenders</strong
+                ><span>Broad comparison network</span></a
+              >
+              <a href="/verification/nmls/"
+                ><strong>Verified</strong><span>Licensing access</span></a
+              >
+            </div>
+            <div class="hero-help">
+              <h2>Start with one simple request.</h2>
+              <span aria-hidden="true" class="hand-arrow"
+                ><svg
+                  aria-hidden="true"
+                  fill="none"
+                  viewbox="0 0 72 52"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4 7c22 1 39 10 48 28"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-width="4"
+                  ></path>
+                  <path
+                    d="m43 29 10 7-2-13"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="4"
+                  ></path></svg
+              ></span>
+            </div>
+            <div class="hero-actions hero-actions-primary">
+              <button class="btn btn-lg" data-open-lead="" type="button">
+                Start My Pre-Approval
+              </button>
+            </div>
+            <div class="hero-secondary-actions">
+              <a href="mailto:Info@GregDeskin.com">Email Greg</a
+              ><span aria-hidden="true">•</span
+              ><a data-open-schedule="" href="#">Schedule a Call</a
+              ><span aria-hidden="true">•</span
+              ><a href="tel:+19498648178">Call (949) 864-8178</a>
+            </div>
+            <p class="privacy-note">
+              <span>✓</span>No SSN required. Zero impact to credit. Your
+              information is never sold.
+            </p>
+          </div>
+          <div class="hero-visual hero-video-visual">
+            <div
+              class="hero-video-player is-muted"
+              data-hero-video
+              role="group"
+              aria-label="Greg Deskin introduction video"
+            >
+              <img
+                class="hero-video-poster"
+                src="assets/img/greg.png"
+                alt=""
+                aria-hidden="true"
+              />
 
-    <div class="hero-video-controls" role="group" aria-label="Video controls">
-      <button type="button" data-video-play aria-label="Play video" disabled>
-        <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M8 5v14l11-7z" />
-        </svg>
-        <svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-          <path d="M7 5h3v14H7zm7 0h3v14h-3z" />
-        </svg>
-      </button>
+              <div
+                class="hero-video-controls"
+                role="group"
+                aria-label="Video controls"
+              >
+                <button
+                  type="button"
+                  data-video-play
+                  aria-label="Play video"
+                  disabled
+                >
+                  <svg
+                    class="icon-play"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                  <svg
+                    class="icon-pause"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 5h3v14H7zm7 0h3v14h-3z" />
+                  </svg>
+                </button>
 
-      <button type="button" data-video-mute aria-label="Unmute video" disabled>
-        <svg class="icon-muted" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-             stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M11 5 6 9H3v6h3l5 4V5zM16 9l5 6m0-6-5 6" />
-        </svg>
-        <svg class="icon-unmuted" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-             stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M11 5 6 9H3v6h3l5 4V5zM15 9a4 4 0 0 1 0 6m3-9a8 8 0 0 1 0 12" />
-        </svg>
-      </button>
+                <button
+                  type="button"
+                  data-video-mute
+                  aria-label="Unmute video"
+                  disabled
+                >
+                  <svg
+                    class="icon-muted"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M11 5 6 9H3v6h3l5 4V5zM16 9l5 6m0-6-5 6" />
+                  </svg>
+                  <svg
+                    class="icon-unmuted"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M11 5 6 9H3v6h3l5 4V5zM15 9a4 4 0 0 1 0 6m3-9a8 8 0 0 1 0 12"
+                    />
+                  </svg>
+                </button>
 
-      <button type="button" data-video-fullscreen aria-label="Enter full screen">
-        <svg class="icon-expand" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-             stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5" />
-        </svg>
-        <svg class="icon-compress" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-             stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <path d="M8 3v5H3m13-5v5h5M8 21v-5H3m13 5v-5h5" />
-        </svg>
-      </button>
+                <button
+                  type="button"
+                  data-video-fullscreen
+                  aria-label="Enter full screen"
+                >
+                  <svg
+                    class="icon-expand"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5" />
+                  </svg>
+                  <svg
+                    class="icon-compress"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M8 3v5H3m13-5v5h5M8 21v-5H3m13 5v-5h5" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section product-section" id="loan-options">
+        <div class="container product-shell">
+          <p class="pill-label">Home Loan Products</p>
+          <h2>Popular Home Loan Products</h2>
+          <p class="section-intro">
+            Take a look at some of our popular loan products and niche lending
+            solutions.
+          </p>
+          <div class="product-grid">
+            <a
+              class="product-card js-form-modal"
+              data-modal-title="Conventional Loans"
+              href="https://conventional-loan-quote-wcl-greg-deskin.secure-clix.com/"
+            >
+              <span class="product-icon"
+                ><svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.7"
+                  viewbox="0 0 24 24"
+                >
+                  <path d="M3 11.5 12 4l9 7.5"></path>
+                  <path d="M5.5 10.5V21h13V10.5"></path>
+                  <path d="M9.5 21v-6h5v6"></path></svg
+              ></span>
+              <strong>Conventional Loans</strong
+              ><span class="product-arrow">→</span>
+            </a>
+            <a
+              class="product-card js-form-modal"
+              data-modal-title="FHA Loans"
+              href="https://fha-loan-eligibility-checker-wcl-greg-deskin.secure-clix.com/"
+            >
+              <span class="product-icon"
+                ><svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.7"
+                  viewbox="0 0 24 24"
+                >
+                  <path
+                    d="M12 3 4.5 6v5.5c0 4.6 3 7.8 7.5 9.5 4.5-1.7 7.5-4.9 7.5-9.5V6L12 3Z"
+                  ></path>
+                  <path d="m9 12 2 2 4-4"></path></svg
+              ></span>
+              <strong>FHA Loans</strong><span class="product-arrow">→</span>
+            </a>
+            <a
+              class="product-card js-form-modal"
+              data-modal-title="VA Loans"
+              href="https://va-loans-eligibility-checker-wcl-greg-deskin.secure-clix.com/"
+            >
+              <span class="product-icon"
+                ><svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.7"
+                  viewbox="0 0 24 24"
+                >
+                  <path
+                    d="m12 3 2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3Z"
+                  ></path></svg
+              ></span>
+              <strong>VA Loans</strong><span class="product-arrow">→</span>
+            </a>
+            <a
+              class="product-card js-form-modal"
+              data-modal-title="USDA Loans"
+              href="https://usda-loan-eligibility-checker-wcl-greg-deskin.secure-clix.com/"
+            >
+              <span class="product-icon"
+                ><svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.7"
+                  viewbox="0 0 24 24"
+                >
+                  <path
+                    d="M20 4C11 4 5 8 5 15c0 3 2 5 5 5 7 0 10-7 10-16Z"
+                  ></path>
+                  <path d="M5 20c3-6 7-9 12-12"></path></svg
+              ></span>
+              <strong>USDA Loans</strong><span class="product-arrow">→</span>
+            </a>
+            <a
+              class="product-card js-form-modal"
+              data-modal-title="Jumbo Loans"
+              href="https://jumbo-loan-eligibility-checker-wcl-greg-deskin.secure-clix.com/"
+            >
+              <span class="product-icon"
+                ><svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.7"
+                  viewbox="0 0 24 24"
+                >
+                  <path
+                    d="M4 21h16M6 21V7l6-3 6 3v14M9 10h1M14 10h1M9 14h1M14 14h1"
+                  ></path></svg
+              ></span>
+              <strong>Jumbo Loans</strong><span class="product-arrow">→</span>
+            </a>
+            <a
+              class="product-card js-form-modal"
+              data-modal-title="Self-Employed Loans"
+              href="https://self-employed-loan-eligibility-wcl-greg-deskin.secure-clix.com/"
+            >
+              <span class="product-icon"
+                ><svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.7"
+                  viewbox="0 0 24 24"
+                >
+                  <circle cx="10" cy="8" r="3"></circle>
+                  <path d="M4 20c.7-4 2.7-6 6-6 2.1 0 3.7.8 4.8 2.3"></path>
+                  <circle cx="18" cy="16" r="3"></circle>
+                  <path d="M18 14.5v3M16.5 16h3"></path></svg
+              ></span>
+              <strong>Self-Employed Loans</strong
+              ><span class="product-arrow">→</span>
+            </a>
+            <a
+              class="product-card js-form-modal"
+              data-modal-title="Construction Loans"
+              href="https://new-construction-wcl-greg-deskin.secure-clix.com/"
+            >
+              <span class="product-icon"
+                ><svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.7"
+                  viewbox="0 0 24 24"
+                >
+                  <path
+                    d="m14 5 5 5M16 3l5 5-3 3-5-5 3-3ZM13 8 4 17l3 3 9-9"
+                  ></path></svg
+              ></span>
+              <strong>Construction Loans</strong
+              ><span class="product-arrow">→</span>
+            </a>
+            <a
+              class="product-card js-form-modal"
+              data-modal-title="DSCR Loans"
+              href="https://dscr-loans-eligibility-checker-wcl-greg-deskin.secure-clix.com/"
+            >
+              <span class="product-icon"
+                ><svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.7"
+                  viewbox="0 0 24 24"
+                >
+                  <path d="M4 20V10M10 20V4M16 20v-7M22 20H2"></path>
+                  <path d="m4 8 6-4 6 6 5-5"></path></svg
+              ></span>
+              <strong>DSCR Loans</strong><span class="product-arrow">→</span>
+            </a>
+            <a
+              class="product-card js-form-modal"
+              data-modal-title="Reverse Mortgage"
+              href="https://reverse-mortgage-quote-wcl-greg-deskin.secure-clix.com/"
+            >
+              <span class="product-icon"
+                ><svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.7"
+                  viewbox="0 0 24 24"
+                >
+                  <path d="M4 8h11a5 5 0 0 1 0 10H9"></path>
+                  <path d="m8 4-4 4 4 4"></path></svg
+              ></span>
+              <strong>Reverse Mortgage</strong
+              ><span class="product-arrow">→</span>
+            </a>
+            <a
+              class="product-card js-form-modal"
+              data-modal-title="Renovation Loans 203(k)"
+              href="https://203k-loan-eligibility-wcl-greg-deskin.secure-clix.com/"
+            >
+              <span class="product-icon"
+                ><svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.7"
+                  viewbox="0 0 24 24"
+                >
+                  <path d="m14 7 3-3 3 3-3 3M4 20l9-9 3 3-9 9H4v-3Z"></path>
+                  <path d="m12 4 8 8"></path></svg
+              ></span>
+              <strong>Renovation Loans 203(k)</strong
+              ><span class="product-arrow">→</span>
+            </a>
+            <a
+              class="product-card js-form-modal"
+              data-modal-title="2/1 Buydown Program"
+              href="https://2-1-buydown-wcl-greg-deskin.secure-clix.com/"
+            >
+              <span class="product-icon"
+                ><svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.7"
+                  viewbox="0 0 24 24"
+                >
+                  <path d="m5 19 14-14"></path>
+                  <circle cx="7" cy="7" r="2"></circle>
+                  <circle cx="17" cy="17" r="2"></circle></svg
+              ></span>
+              <strong>2/1 Buydown Program</strong
+              ><span class="product-arrow">→</span>
+            </a>
+            <a
+              class="product-card js-form-modal"
+              data-modal-title="Down Payment Assistance"
+              href="https://down-payment-assistance-eligibility-wcl-greg-deskin.secure-clix.com/"
+            >
+              <span class="product-icon"
+                ><svg
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="1.7"
+                  viewbox="0 0 24 24"
+                >
+                  <circle cx="8" cy="14" r="4"></circle>
+                  <path d="m11 11 8-8 2 2-2 2 2 2-3 3-2-2-3 3"></path></svg
+              ></span>
+              <strong>Down Payment Assistance</strong
+              ><span class="product-arrow">→</span>
+            </a>
+          </div>
+          <p class="center product-more">
+            <a class="text-link" href="loan-types/"
+              >Read educational loan guides →</a
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+        <a aria-label="Greg Deskin home" class="footer-logo" href="./"
+          ><img
+            alt="Greg Deskin Mortgage and Real Estate"
+            height="240"
+            src="assets/img/greg-deskin-logo.webp"
+            width="720"
+        /></a>
+        <div class="footer-top">
+          <div class="footer-mission">
+            <p>
+              Our mission is to serve our customers with honesty, integrity and
+              competence. Our goal is to provide home loans to our clients while
+              providing them with the lowest interest rates and closing costs
+              possible. Furthermore, we pledge to help borrowers overcome
+              roadblocks that can arise while securing a loan.
+            </p>
+          </div>
+          <div>
+            <h3>About Us</h3>
+            <ul>
+              <li><a href="about/">About Greg</a></li>
+              <li><a href="contact/">Contact Us</a></li>
+              <li><a href="ada/">ADA Accessibility Statement</a></li>
+              <li>
+                <a data-open-schedule="" href="#">Schedule a Consultation</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Loan Programs</h3>
+            <ul>
+              <li><a href="/loan-types/conventional/">Conventional</a></li>
+              <li><a href="loan-types/fha/">FHA</a></li>
+              <li><a href="loan-types/va/">VA</a></li>
+              <li><a href="loan-types/investment-commercial/">Non-QM</a></li>
+              <li>
+                <a
+                  class="js-form-modal"
+                  data-modal-title="Interest Only Loans"
+                  href="https://mortgage-rate-quote-wcl-greg-deskin.secure-clix.com/"
+                  >Interest Only</a
+                >
+              </li>
+              <li>
+                <a
+                  class="js-form-modal"
+                  data-modal-title="Reverse Mortgage"
+                  href="https://reverse-mortgage-quote-wcl-greg-deskin.secure-clix.com/"
+                  >Reverse Mortgage</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h3>Company Info</h3>
+            <ul>
+              <li>NMLS# 1566096</li>
+              <li>DRE# 02022356</li>
+              <li><a href="tel:+19498648178">Phone: (949) 864-8178</a></li>
+              <li>
+                <a href="mailto:Info@GregDeskin.com"
+                  >Email: Info@GregDeskin.com</a
+                >
+              </li>
+              <li><a href="/reviews/google/">Google Reviews</a></li>
+              <li><a href="/reviews/experience/">Experience.com Reviews</a></li>
+              <li><a href="licensing/">Licensing</a></li>
+              <li><a href="/licensing/">Licensing Information</a></li>
+              <li><a href="/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="/terms-of-use/">Terms of Use</a></li>
+              <li>
+                <a href="/sms-terms-conditions/">SMS Terms &amp; Conditions</a>
+              </li>
+              <li><a href="cookie-policy/">Cookie Policy</a></li>
+              <li>
+                <a data-cookiebot-renew="" href="#"
+                  >Do Not Sell or Share My Personal Information</a
+                >
+              </li>
+              <li>
+                <a href="/texas-complaint-recovery-fund-notice/"
+                  >Texas Complaint/Recovery Fund Notice</a
+                >
+              </li>
+              <li>
+                Address:<br />17911 Von Karman Ave, Suite 400,<br />Irvine CA
+                92614
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-disclosures">
+          <p>
+            Approval may be granted in five minutes but is ultimately subject to
+            verification of income and employment, as well as verification that
+            your property is in at least average condition with a property
+            condition report. Five business day funding timeline assumes closing
+            the loan with our remote online notary, and where loan amounts are
+            under $400,000 which would not require an appraisal. Funding
+            timelines may be longer for loans secured by properties located in
+            counties that do not permit recording of e-signatures or that
+            otherwise require an in-person closing, or that require a waiting
+            period prior to closing, or where loan amounts exceed $400,000.
+          </p>
+          <p>
+            The Fixed Rate Home Equity Line is an open-end product where the
+            full loan amount minus the origination fee will be 100% drawn at the
+            time of origination. The initial amount funded at origination will
+            be based on a fixed rate; however, this product contains an
+            additional draw feature. As the borrower repays the balance on the
+            line, the borrower may make additional draws during the draw period.
+            If the borrower elects to make an additional draw, the interest rate
+            for that draw will be set as of the date of the draw and will be
+            based on an Index, which is the Prime Rate published in the Wall
+            Street Journal for the calendar month preceding the date of the
+            additional draw, plus a fixed margin. Accordingly, the fixed rate
+            for any additional draw may be higher than the fixed rate for the
+            initial draw.
+          </p>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            <a href="/licensing/">License Information</a> - For complete license
+            information, visit our Licensing Page.
+          </p>
+          <p>
+            WCL is an Equal Housing Lender. As prohibited by federal law, we do
+            not engage in business practices that discriminate based on race,
+            color, religion, national origin, sex, marital status, age provided
+            you have the capacity to enter into a binding contract because all
+            or part of your income may be derived from any public assistance
+            program, or because you have, in good faith, exercised any right
+            under the Consumer Credit Protection Act. The federal agency that
+            administers our compliance with these federal laws is the Federal
+            Trade Commission, Equal Credit Opportunity, Washington, DC, 20580.
+          </p>
+          <div class="footer-bottom-links">
+            <a class="footer-trust-link" href="/verification/nmls/"
+              ><span class="footer-trust-badge">NMLS</span
+              ><span>NMLS Licensing Summary</span></a
+            ><span class="equal-housing"
+              ><svg
+                aria-hidden="true"
+                class="equal-housing-icon"
+                fill="none"
+                viewbox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 45 50 12l40 33M22 42v42h56V42M35 54h30M35 68h30"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="7"
+                ></path></svg
+              ><span>Equal Housing Lender</span></span
+            >
+          </div>
+          <p>
+            Copyright © <span data-year="">2026</span> gregdeskin. All Rights
+            Reserved. | NMLS# 1566096 DRE# 02022356
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div aria-label="Quick contact actions" class="mobile-cta">
+      <a class="btn btn-outline" href="tel:+19498648178">Call Greg</a
+      ><a
+        class="btn"
+        href="https://westcaplending.loanzify.io/"
+        rel="noopener"
+        target="_blank"
+        >Apply Now</a
+      >
     </div>
-  </div>
-</div>
-</div>
-</section><section class="section product-section" id="loan-options">
-<div class="container product-shell"><p class="pill-label">Home Loan Products</p><h2>Popular Home Loan Products</h2><p class="section-intro">Take a look at some of our popular loan products and niche lending solutions.</p><div class="product-grid"><a class="product-card js-form-modal" data-modal-title="Conventional Loans" href="https://conventional-loan-quote-wcl-greg-deskin.secure-clix.com/">
-<span class="product-icon"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24"><path d="M3 11.5 12 4l9 7.5"></path><path d="M5.5 10.5V21h13V10.5"></path><path d="M9.5 21v-6h5v6"></path></svg></span>
-<strong>Conventional Loans</strong><span class="product-arrow">→</span>
-</a>
-<a class="product-card js-form-modal" data-modal-title="FHA Loans" href="https://fha-loan-eligibility-checker-wcl-greg-deskin.secure-clix.com/">
-<span class="product-icon"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24"><path d="M12 3 4.5 6v5.5c0 4.6 3 7.8 7.5 9.5 4.5-1.7 7.5-4.9 7.5-9.5V6L12 3Z"></path><path d="m9 12 2 2 4-4"></path></svg></span>
-<strong>FHA Loans</strong><span class="product-arrow">→</span>
-</a>
-<a class="product-card js-form-modal" data-modal-title="VA Loans" href="https://va-loans-eligibility-checker-wcl-greg-deskin.secure-clix.com/">
-<span class="product-icon"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24"><path d="m12 3 2.7 5.5 6.1.9-4.4 4.3 1 6.1-5.4-2.9-5.4 2.9 1-6.1-4.4-4.3 6.1-.9L12 3Z"></path></svg></span>
-<strong>VA Loans</strong><span class="product-arrow">→</span>
-</a>
-<a class="product-card js-form-modal" data-modal-title="USDA Loans" href="https://usda-loan-eligibility-checker-wcl-greg-deskin.secure-clix.com/">
-<span class="product-icon"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24"><path d="M20 4C11 4 5 8 5 15c0 3 2 5 5 5 7 0 10-7 10-16Z"></path><path d="M5 20c3-6 7-9 12-12"></path></svg></span>
-<strong>USDA Loans</strong><span class="product-arrow">→</span>
-</a>
-<a class="product-card js-form-modal" data-modal-title="Jumbo Loans" href="https://jumbo-loan-eligibility-checker-wcl-greg-deskin.secure-clix.com/">
-<span class="product-icon"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24"><path d="M4 21h16M6 21V7l6-3 6 3v14M9 10h1M14 10h1M9 14h1M14 14h1"></path></svg></span>
-<strong>Jumbo Loans</strong><span class="product-arrow">→</span>
-</a>
-<a class="product-card js-form-modal" data-modal-title="Self-Employed Loans" href="https://self-employed-loan-eligibility-wcl-greg-deskin.secure-clix.com/">
-<span class="product-icon"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24"><circle cx="10" cy="8" r="3"></circle><path d="M4 20c.7-4 2.7-6 6-6 2.1 0 3.7.8 4.8 2.3"></path><circle cx="18" cy="16" r="3"></circle><path d="M18 14.5v3M16.5 16h3"></path></svg></span>
-<strong>Self-Employed Loans</strong><span class="product-arrow">→</span>
-</a>
-<a class="product-card js-form-modal" data-modal-title="Construction Loans" href="https://new-construction-wcl-greg-deskin.secure-clix.com/">
-<span class="product-icon"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24"><path d="m14 5 5 5M16 3l5 5-3 3-5-5 3-3ZM13 8 4 17l3 3 9-9"></path></svg></span>
-<strong>Construction Loans</strong><span class="product-arrow">→</span>
-</a>
-<a class="product-card js-form-modal" data-modal-title="DSCR Loans" href="https://dscr-loans-eligibility-checker-wcl-greg-deskin.secure-clix.com/">
-<span class="product-icon"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"></path><path d="m4 8 6-4 6 6 5-5"></path></svg></span>
-<strong>DSCR Loans</strong><span class="product-arrow">→</span>
-</a>
-<a class="product-card js-form-modal" data-modal-title="Reverse Mortgage" href="https://reverse-mortgage-quote-wcl-greg-deskin.secure-clix.com/">
-<span class="product-icon"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24"><path d="M4 8h11a5 5 0 0 1 0 10H9"></path><path d="m8 4-4 4 4 4"></path></svg></span>
-<strong>Reverse Mortgage</strong><span class="product-arrow">→</span>
-</a>
-<a class="product-card js-form-modal" data-modal-title="Renovation Loans 203(k)" href="https://203k-loan-eligibility-wcl-greg-deskin.secure-clix.com/">
-<span class="product-icon"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24"><path d="m14 7 3-3 3 3-3 3M4 20l9-9 3 3-9 9H4v-3Z"></path><path d="m12 4 8 8"></path></svg></span>
-<strong>Renovation Loans 203(k)</strong><span class="product-arrow">→</span>
-</a>
-<a class="product-card js-form-modal" data-modal-title="2/1 Buydown Program" href="https://2-1-buydown-wcl-greg-deskin.secure-clix.com/">
-<span class="product-icon"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24"><path d="m5 19 14-14"></path><circle cx="7" cy="7" r="2"></circle><circle cx="17" cy="17" r="2"></circle></svg></span>
-<strong>2/1 Buydown Program</strong><span class="product-arrow">→</span>
-</a>
-<a class="product-card js-form-modal" data-modal-title="Down Payment Assistance" href="https://down-payment-assistance-eligibility-wcl-greg-deskin.secure-clix.com/">
-<span class="product-icon"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24"><circle cx="8" cy="14" r="4"></circle><path d="m11 11 8-8 2 2-2 2 2 2-3 3-2-2-3 3"></path></svg></span>
-<strong>Down Payment Assistance</strong><span class="product-arrow">→</span>
-</a></div><p class="center product-more"><a class="text-link" href="loan-types/">Read educational loan guides →</a></p></div>
-</section></main>
-<footer class="site-footer">
-<div class="container">
-<a aria-label="Greg Deskin home" class="footer-logo" href="./"><img alt="Greg Deskin Mortgage and Real Estate" height="240" src="assets/img/greg-deskin-logo.webp" width="720"/></a>
-<div class="footer-top">
-<div class="footer-mission"><p>Our mission is to serve our customers with honesty, integrity and competence. Our goal is to provide home loans to our clients while providing them with the lowest interest rates and closing costs possible. Furthermore, we pledge to help borrowers overcome roadblocks that can arise while securing a loan.</p></div>
-<div><h3>About Us</h3><ul><li><a href="about/">About Greg</a></li><li><a href="contact/">Contact Us</a></li><li><a href="ada/">ADA Accessibility Statement</a></li><li><a data-open-schedule="" href="#">Schedule a Consultation</a></li></ul></div>
-<div><h3>Loan Programs</h3><ul><li><a href="/loan-types/conventional/">Conventional</a></li><li><a href="loan-types/fha/">FHA</a></li><li><a href="loan-types/va/">VA</a></li><li><a href="loan-types/investment-commercial/">Non-QM</a></li><li><a class="js-form-modal" data-modal-title="Interest Only Loans" href="https://mortgage-rate-quote-wcl-greg-deskin.secure-clix.com/">Interest Only</a></li><li><a class="js-form-modal" data-modal-title="Reverse Mortgage" href="https://reverse-mortgage-quote-wcl-greg-deskin.secure-clix.com/">Reverse Mortgage</a></li></ul></div>
-<div><h3>Company Info</h3><ul><li>NMLS# 1566096</li><li>DRE# 02022356</li><li><a href="tel:+19498648178">Phone: (949) 864-8178</a></li><li><a href="mailto:GDeskin@WestCapitalLending.com">Email: GDeskin@WestCapitalLending.com</a></li><li><a href="/reviews/google/">Google Reviews</a></li><li><a href="/reviews/experience/">Experience.com Reviews</a></li><li><a href="licensing/">Licensing</a></li><li><a href="/licensing/">Licensing Information</a></li><li><a href="/privacy-policy/">Privacy Policy</a></li><li><a href="/terms-of-use/">Terms of Use</a></li><li><a href="/sms-terms-conditions/">SMS Terms &amp; Conditions</a></li><li><a href="cookie-policy/">Cookie Policy</a></li><li><a data-cookiebot-renew="" href="#">Do Not Sell or Share My Personal Information</a></li><li><a href="/texas-complaint-recovery-fund-notice/">Texas Complaint/Recovery Fund Notice</a></li><li>Address:<br/>17911 Von Karman Ave, Suite 400,<br/>Irvine CA 92614</li></ul></div>
-</div>
-<div class="footer-disclosures">
-<p>Approval may be granted in five minutes but is ultimately subject to verification of income and employment, as well as verification that your property is in at least average condition with a property condition report. Five business day funding timeline assumes closing the loan with our remote online notary, and where loan amounts are under $400,000 which would not require an appraisal. Funding timelines may be longer for loans secured by properties located in counties that do not permit recording of e-signatures or that otherwise require an in-person closing, or that require a waiting period prior to closing, or where loan amounts exceed $400,000.</p>
-<p>The Fixed Rate Home Equity Line is an open-end product where the full loan amount minus the origination fee will be 100% drawn at the time of origination. The initial amount funded at origination will be based on a fixed rate; however, this product contains an additional draw feature. As the borrower repays the balance on the line, the borrower may make additional draws during the draw period. If the borrower elects to make an additional draw, the interest rate for that draw will be set as of the date of the draw and will be based on an Index, which is the Prime Rate published in the Wall Street Journal for the calendar month preceding the date of the additional draw, plus a fixed margin. Accordingly, the fixed rate for any additional draw may be higher than the fixed rate for the initial draw.</p>
-</div>
-<div class="footer-bottom">
-<p><a href="/licensing/">License Information</a> - For complete license information, visit our Licensing Page.</p>
-<p>WCL is an Equal Housing Lender. As prohibited by federal law, we do not engage in business practices that discriminate based on race, color, religion, national origin, sex, marital status, age provided you have the capacity to enter into a binding contract because all or part of your income may be derived from any public assistance program, or because you have, in good faith, exercised any right under the Consumer Credit Protection Act. The federal agency that administers our compliance with these federal laws is the Federal Trade Commission, Equal Credit Opportunity, Washington, DC, 20580.</p>
-<div class="footer-bottom-links"><a class="footer-trust-link" href="/verification/nmls/"><span class="footer-trust-badge">NMLS</span><span>NMLS Licensing Summary</span></a><span class="equal-housing"><svg aria-hidden="true" class="equal-housing-icon" fill="none" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><path d="M10 45 50 12l40 33M22 42v42h56V42M35 54h30M35 68h30" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"></path></svg><span>Equal Housing Lender</span></span></div>
-<p>Copyright © <span data-year="">2026</span> gregdeskin. All Rights Reserved. | NMLS# 1566096 DRE# 02022356</p>
-</div>
-</div>
-</footer>
-<div aria-label="Quick contact actions" class="mobile-cta"><a class="btn btn-outline" href="tel:+19498648178">Call Greg</a><a class="btn" href="https://westcaplending.loanzify.io/" rel="noopener" target="_blank">Apply Now</a></div>
 
+    <div
+      aria-hidden="true"
+      aria-labelledby="video-title"
+      aria-modal="true"
+      class="modal-backdrop"
+      id="video-modal"
+      role="dialog"
+    >
+      <div class="modal video-modal">
+        <div class="modal-head">
+          <h2 id="video-title">Meet Greg Deskin</h2>
+          <button
+            aria-label="Close video"
+            class="modal-close"
+            data-close-modal=""
+          >
+            ×
+          </button>
+        </div>
+        <div class="modal-body" id="video-modal-body"></div>
+      </div>
+    </div>
+    <div
+      aria-hidden="true"
+      aria-labelledby="lead-title"
+      aria-modal="true"
+      class="modal-backdrop"
+      id="lead-modal"
+      role="dialog"
+    >
+      <div class="modal lead-modal">
+        <div class="modal-head">
+          <h2 id="lead-title">Start Your Pre-Approval Request</h2>
+          <button
+            aria-label="Close form"
+            class="modal-close"
+            data-close-modal=""
+          >
+            ×
+          </button>
+        </div>
+        <div class="modal-body">
+          <form
+            action="/api/contact"
+            class="form-card"
+            data-lead-form=""
+            data-subject="New GregDeskin.com mortgage inquiry"
+            method="POST"
+            data-form-kind="lead"
+          >
+            <input name="form_type" type="hidden" value="lead" />
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="lead-name">Full name</label
+                ><input
+                  autocomplete="name"
+                  id="lead-name"
+                  name="name"
+                  required=""
+                />
+              </div>
+              <div class="form-group">
+                <label for="lead-phone">Phone</label
+                ><input
+                  autocomplete="tel"
+                  id="lead-phone"
+                  name="phone"
+                  required=""
+                  type="tel"
+                />
+              </div>
+              <div class="form-group">
+                <label for="lead-email">Email</label
+                ><input
+                  autocomplete="email"
+                  id="lead-email"
+                  name="email"
+                  required=""
+                  type="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="lead-purpose">Loan purpose</label
+                ><select id="lead-purpose" name="loan_purpose" required="">
+                  <option value="">Select one</option>
+                  <option>Purchase</option>
+                  <option>Refinance</option>
+                  <option>Home equity</option>
+                  <option>Investment or commercial</option>
+                  <option>Not sure yet</option>
+                </select>
+              </div>
+              <div class="form-group full">
+                <label for="lead-time">Best time to contact</label
+                ><select id="lead-time" name="best_time" required="">
+                  <option value="">Select a time</option>
+                  <option>Morning</option>
+                  <option>Afternoon</option>
+                  <option>Evening</option>
+                  <option>Any time</option>
+                </select>
+              </div>
+              <div class="honeypot">
+                <label
+                  >Leave blank<input
+                    autocomplete="off"
+                    name="_honey"
+                    tabindex="-1"
+                /></label>
+              </div>
+              <div class="form-group full">
+                <button class="btn btn-lg" type="submit">
+                  Send My Pre-Approval Request
+                </button>
+              </div>
+            </div>
+            <p class="form-note">
+              By submitting, you consent to be contacted about your mortgage
+              inquiry. This is not a loan application or approval.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div aria-live="polite" class="toast" id="site-toast" role="status">
+      <strong></strong><span></span>
+    </div>
+    <div
+      aria-hidden="true"
+      aria-labelledby="schedule-modal-title"
+      aria-modal="true"
+      class="modal-backdrop"
+      id="schedule-modal"
+      role="dialog"
+    >
+      <div class="modal schedule-modal">
+        <div class="modal-head">
+          <h2 id="schedule-modal-title">Schedule a Consultation</h2>
+          <button
+            aria-label="Close scheduler"
+            class="modal-close"
+            data-close-modal=""
+          >
+            ×
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="schedule-modal-intro">
+            <p class="kicker">Choose a preferred time</p>
+            <p>
+              Select a date and time that works for you. Greg’s team will
+              confirm availability by email or phone.
+            </p>
+          </div>
+          <form
+            action="/api/contact"
+            class="form-card"
+            data-lead-form=""
+            method="POST"
+            data-form-kind="schedule"
+          >
+            <input name="form_type" type="hidden" value="schedule" />
 
-<div aria-hidden="true" aria-labelledby="video-title" aria-modal="true" class="modal-backdrop" id="video-modal" role="dialog"><div class="modal video-modal"><div class="modal-head"><h2 id="video-title">Meet Greg Deskin</h2><button aria-label="Close video" class="modal-close" data-close-modal="">×</button></div><div class="modal-body" id="video-modal-body"></div></div></div>
-<div aria-hidden="true" aria-labelledby="lead-title" aria-modal="true" class="modal-backdrop" id="lead-modal" role="dialog"><div class="modal lead-modal"><div class="modal-head"><h2 id="lead-title">Start Your Pre-Approval Request</h2><button aria-label="Close form" class="modal-close" data-close-modal="">×</button></div><div class="modal-body"><form action="/api/contact" class="form-card" data-lead-form="" data-subject="New GregDeskin.com mortgage inquiry" method="POST" data-form-kind="lead"><input name="form_type" type="hidden" value="lead"/><div class="form-grid"><div class="form-group"><label for="lead-name">Full name</label><input autocomplete="name" id="lead-name" name="name" required=""/></div><div class="form-group"><label for="lead-phone">Phone</label><input autocomplete="tel" id="lead-phone" name="phone" required="" type="tel"/></div><div class="form-group"><label for="lead-email">Email</label><input autocomplete="email" id="lead-email" name="email" required="" type="email"/></div><div class="form-group"><label for="lead-purpose">Loan purpose</label><select id="lead-purpose" name="loan_purpose" required=""><option value="">Select one</option><option>Purchase</option><option>Refinance</option><option>Home equity</option><option>Investment or commercial</option><option>Not sure yet</option></select></div><div class="form-group full"><label for="lead-time">Best time to contact</label><select id="lead-time" name="best_time" required=""><option value="">Select a time</option><option>Morning</option><option>Afternoon</option><option>Evening</option><option>Any time</option></select></div><div class="honeypot"><label>Leave blank<input autocomplete="off" name="_honey" tabindex="-1"/></label></div><div class="form-group full"><button class="btn btn-lg" type="submit">Send My Pre-Approval Request</button></div></div><p class="form-note">By submitting, you consent to be contacted about your mortgage inquiry. This is not a loan application or approval.</p></form></div></div></div>
-<div aria-live="polite" class="toast" id="site-toast" role="status"><strong></strong><span></span></div>
-<div aria-hidden="true" aria-labelledby="schedule-modal-title" aria-modal="true" class="modal-backdrop" id="schedule-modal" role="dialog">
-<div class="modal schedule-modal">
-<div class="modal-head"><h2 id="schedule-modal-title">Schedule a Consultation</h2><button aria-label="Close scheduler" class="modal-close" data-close-modal="">×</button></div>
-<div class="modal-body">
-<div class="schedule-modal-intro"><p class="kicker">Choose a preferred time</p><p>Select a date and time that works for you. Greg’s team will confirm availability by email or phone.</p></div>
-<form action="/api/contact" class="form-card" data-lead-form="" method="POST" data-form-kind="schedule"><input name="form_type" type="hidden" value="schedule"/>
-
-
-
-
-
-<div class="form-grid">
-<div class="form-group"><label for="modal-schedule-name">Full name</label><input autocomplete="name" id="modal-schedule-name" name="name" required=""/></div>
-<div class="form-group"><label for="modal-schedule-email">Email</label><input autocomplete="email" id="modal-schedule-email" name="email" required="" type="email"/></div>
-<div class="form-group"><label for="modal-schedule-date">Preferred date</label><input id="modal-schedule-date" name="preferred_date" required="" type="date"/></div>
-<div class="form-group"><label for="modal-schedule-time">Preferred time</label><select id="modal-schedule-time" name="preferred_time" required=""><option value="">Choose one</option><option>Morning</option><option>Afternoon</option><option>Evening</option><option>Any time</option></select></div>
-<div class="form-group full"><label for="modal-schedule-topic">What would you like to discuss?</label><textarea id="modal-schedule-topic" name="discussion" placeholder="Purchase, refinance, home equity, investment or another question" rows="3"></textarea></div>
-<div aria-hidden="true" class="honeypot"><label>Leave this field blank<input autocomplete="off" name="_honey" tabindex="-1"/></label></div>
-<div class="form-group full"><button class="btn btn-lg btn-block" type="submit">Request This Consultation</button></div>
-</div>
-<p class="form-note">This is a scheduling request. Greg’s team will confirm availability before the appointment is final.</p>
-</form>
-</div>
-</div>
-</div></body></html>
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="modal-schedule-name">Full name</label
+                ><input
+                  autocomplete="name"
+                  id="modal-schedule-name"
+                  name="name"
+                  required=""
+                />
+              </div>
+              <div class="form-group">
+                <label for="modal-schedule-email">Email</label
+                ><input
+                  autocomplete="email"
+                  id="modal-schedule-email"
+                  name="email"
+                  required=""
+                  type="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="modal-schedule-date">Preferred date</label
+                ><input
+                  id="modal-schedule-date"
+                  name="preferred_date"
+                  required=""
+                  type="date"
+                />
+              </div>
+              <div class="form-group">
+                <label for="modal-schedule-time">Preferred time</label
+                ><select
+                  id="modal-schedule-time"
+                  name="preferred_time"
+                  required=""
+                >
+                  <option value="">Choose one</option>
+                  <option>Morning</option>
+                  <option>Afternoon</option>
+                  <option>Evening</option>
+                  <option>Any time</option>
+                </select>
+              </div>
+              <div class="form-group full">
+                <label for="modal-schedule-topic"
+                  >What would you like to discuss?</label
+                ><textarea
+                  id="modal-schedule-topic"
+                  name="discussion"
+                  placeholder="Purchase, refinance, home equity, investment or another question"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div aria-hidden="true" class="honeypot">
+                <label
+                  >Leave this field blank<input
+                    autocomplete="off"
+                    name="_honey"
+                    tabindex="-1"
+                /></label>
+              </div>
+              <div class="form-group full">
+                <button class="btn btn-lg btn-block" type="submit">
+                  Request This Consultation
+                </button>
+              </div>
+            </div>
+            <p class="form-note">
+              This is a scheduling request. Greg’s team will confirm
+              availability before the appointment is final.
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

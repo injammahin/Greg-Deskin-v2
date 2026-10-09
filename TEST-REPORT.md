@@ -5,7 +5,7 @@
 - `npm run build`: passed. Validated 40 HTML pages, 24 required internal destinations, links, duplicate IDs, Cookiebot installation, homepage section order, forms and licensing. Built the public site in `dist/`.
 - `npm test`: passed five form delivery checks: lead and schedule messages, URL encoded fallback, escaped email HTML, configuration/provider failures, recipient protection and spam honeypot.
 - `node --check` passed for the browser script and server-side entry points.
-- Invoked both the Vercel and Netlify function handlers using a mocked Brevo HTTP response. Both returned success only after a simulated Brevo 201 response and routed to `GDeskin@WestCapitalLending.com`.
+- Invoked both the Vercel and Netlify function handlers using a mocked Brevo HTTP response. Both returned success only after a simulated Brevo 201 response and routed to `Info@GregDeskin.com`.
 - Local HTTP smoke checks: homepage 200, contact page 200, `.env` 404, unconfigured `/api/contact` 503. The public `dist/` does not contain `.env`.
 - Homepage contains only the hero (with the configured YouTube player and full screen control), product section and complete footer. All 43 site-owned form instances target `/api/contact`.
 

@@ -1,482 +1,779 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-US">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
-<title>Contact Greg Deskin | Mortgage Consultation</title>
-<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="d2ca8e0a-6a9c-471f-97e9-06ca1f4fdc80" data-blockingmode="auto" type="text/javascript"></script>
-<meta content="Call, email or schedule a mortgage consultation with Greg Deskin. Submit a short request for purchase, refinance, equity or investment financing." name="description"/>
-<meta content="index,follow,max-image-preview:large" name="robots"/>
-<link href="https://gregdeskin.com/contact/" rel="canonical"/>
-<meta content="website" property="og:type"/><meta content="Contact Greg Deskin | Mortgage Consultation" property="og:title"/><meta content="Call, email or schedule a mortgage consultation with Greg Deskin. Submit a short request for purchase, refinance, equity or investment financing." property="og:description"/><meta content="https://gregdeskin.com/contact/" property="og:url"/><meta content="https://gregdeskin.com/assets/img/greg-deskin-portrait.png" property="og:image"/>
-<meta content="summary_large_image" name="twitter:card"/>
-<meta content="#07080b" name="theme-color"/>
-<link href="../favicon-64.png" rel="icon" sizes="64x64" type="image/png"/>
-<link href="../favicon.png" rel="apple-touch-icon"/>
-<link href="../site.webmanifest" rel="manifest"/>
-<link href="../assets/css/styles.css" rel="stylesheet"/>
-<style>
-/* Contact page only: compact spacing and aligned panels. */
-.form-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 33px !important;
-}
-@media (max-width: 680px) {
-    .form-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px !important;
-}
-}
-body.contact-page .contact-hero {
-  padding-top: clamp(34px, 4vw, 54px);
-  padding-bottom: clamp(28px, 3vw, 42px);
-}
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+      name="viewport"
+    />
+    <title>Contact Greg Deskin | Mortgage Consultation</title>
+    <script
+      id="Cookiebot"
+      src="https://consent.cookiebot.com/uc.js"
+      data-cbid="d2ca8e0a-6a9c-471f-97e9-06ca1f4fdc80"
+      data-blockingmode="auto"
+      type="text/javascript"
+    ></script>
+    <meta
+      content="Call, email or schedule a mortgage consultation with Greg Deskin. Submit a short request for purchase, refinance, equity or investment financing."
+      name="description"
+    />
+    <meta content="index,follow,max-image-preview:large" name="robots" />
+    <link href="https://gregdeskin.com/contact/" rel="canonical" />
+    <meta content="website" property="og:type" />
+    <meta
+      content="Contact Greg Deskin | Mortgage Consultation"
+      property="og:title"
+    />
+    <meta
+      content="Call, email or schedule a mortgage consultation with Greg Deskin. Submit a short request for purchase, refinance, equity or investment financing."
+      property="og:description"
+    />
+    <meta content="https://gregdeskin.com/contact/" property="og:url" />
+    <meta
+      content="https://gregdeskin.com/assets/img/greg-deskin-portrait.png"
+      property="og:image"
+    />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="#07080b" name="theme-color" />
+    <link href="../favicon-64.png" rel="icon" sizes="64x64" type="image/png" />
+    <link href="../favicon.png" rel="apple-touch-icon" />
+    <link href="../site.webmanifest" rel="manifest" />
+    <link href="../assets/css/styles.css" rel="stylesheet" />
+    <style>
+      /* Contact page only: compact spacing and aligned panels. */
+      .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 33px !important;
+      }
+      @media (max-width: 680px) {
+        .form-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 16px !important;
+        }
+      }
+      body.contact-page .contact-hero {
+        padding-top: clamp(34px, 4vw, 54px);
+        padding-bottom: clamp(28px, 3vw, 42px);
+      }
 
-body.contact-page .contact-section {
-  padding: clamp(32px, 4vw, 56px) 0 clamp(34px, 4vw, 54px);
-}
+      body.contact-page .contact-section {
+        padding: clamp(32px, 4vw, 56px) 0 clamp(34px, 4vw, 54px);
+      }
 
-body.contact-page .contact-quick-actions {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-  margin-bottom: clamp(22px, 3vw, 34px);
-}
+      body.contact-page .contact-quick-actions {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+        margin-bottom: clamp(22px, 3vw, 34px);
+      }
 
-body.contact-page .contact-main-layout {
-  gap: clamp(18px, 2.6vw, 32px);
-  align-items: stretch;
-}
+      body.contact-page .contact-main-layout {
+        gap: clamp(18px, 2.6vw, 32px);
+        align-items: stretch;
+      }
 
-body.contact-page .contact-support-panel {
-  display: flex;
-  flex-direction: column;
-  min-width: 0;
-}
+      body.contact-page .contact-support-panel {
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+      }
 
-body.contact-page .contact-office-card {
-  margin-top: auto;
-}
+      body.contact-page .contact-office-card {
+        margin-top: auto;
+      }
 
-body.contact-page .contact-steps {
-  margin-bottom: 26px;
-}
+      body.contact-page .contact-steps {
+        margin-bottom: 26px;
+      }
 
-body.contact-page .site-footer {
-  padding-top: 36px;
-}
+      body.contact-page .site-footer {
+        padding-top: 36px;
+      }
 
-.contact-form-feedback {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  margin: 18px 0 0;
-  padding: 14px 16px;
-  border-radius: 7px;
-  font-size: .9rem;
-  line-height: 1.5;
-}
+      .contact-form-feedback {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        margin: 18px 0 0;
+        padding: 14px 16px;
+        border-radius: 7px;
+        font-size: 0.9rem;
+        line-height: 1.5;
+      }
 
-.contact-form-feedback[hidden] {
-  display: none;
-}
+      .contact-form-feedback[hidden] {
+        display: none;
+      }
 
-.contact-form-feedback.is-success {
-  background: #eaf6ee;
-  border: 1px solid #b6dfc3;
-  color: #195b33;
-}
+      .contact-form-feedback.is-success {
+        background: #eaf6ee;
+        border: 1px solid #b6dfc3;
+        color: #195b33;
+      }
 
-.contact-form-feedback.is-success::before {
-  content: "✓";
-  flex: 0 0 24px;
-  display: grid;
-  place-items: center;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background: #10a764;
-  color: #fff;
-  font-weight: 800;
-}
+      .contact-form-feedback.is-success::before {
+        content: "✓";
+        flex: 0 0 24px;
+        display: grid;
+        place-items: center;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: #10a764;
+        color: #fff;
+        font-weight: 800;
+      }
 
-.contact-form-feedback.is-error {
-  background: #fff1ef;
-  border: 1px solid #eac2bb;
-  color: #842f24;
-}
+      .contact-form-feedback.is-error {
+        background: #fff1ef;
+        border: 1px solid #eac2bb;
+        color: #842f24;
+      }
 
-@media (max-width: 900px) {
-  body.contact-page .contact-quick-actions {
-    grid-template-columns: 1fr;
-  }
+      @media (max-width: 900px) {
+        body.contact-page .contact-quick-actions {
+          grid-template-columns: 1fr;
+        }
 
-  body.contact-page .contact-support-panel {
-    order: 0;
-  }
-}
-</style>
-<script defer="" src="../assets/js/site-config.js"></script>
-<script defer="" src="../assets/js/main.js"></script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://gregdeskin.com/"}, {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://gregdeskin.com/contact/"}]}, {"@type": "ContactPage", "name": "Contact Greg Deskin", "url": "https://gregdeskin.com/contact/"}]}</script>
-<meta content="Greg Deskin, NMLS 1883221" name="author"/>
-</head>
+        body.contact-page .contact-support-panel {
+          order: 0;
+        }
+      }
+    </style>
+    <script defer="" src="../assets/js/site-config.js"></script>
+    <script defer="" src="../assets/js/main.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://gregdeskin.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Contact",
+                "item": "https://gregdeskin.com/contact/"
+              }
+            ]
+          },
+          {
+            "@type": "ContactPage",
+            "name": "Contact Greg Deskin",
+            "url": "https://gregdeskin.com/contact/"
+          }
+        ]
+      }
+    </script>
+    <meta content="Greg Deskin, NMLS 1883221" name="author" />
+  </head>
 
-<body class="contact-page" data-loan-drawer="enabled">
-<a class="skip-link" href="#main-content">Skip to main content</a>
+  <body class="contact-page" data-loan-drawer="enabled">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-<header class="site-header" data-header="">
-  <div class="container header-inner">
-    <a aria-label="Greg Deskin home" class="brand" href="../">
-      <picture>
-        <source srcset="../assets/img/greg-deskin-logo.webp" type="image/webp"/>
-        <img alt="Greg Deskin Mortgage and Real Estate" height="240" src="../assets/img/greg-deskin-logo.png" width="720"/>
-      </picture>
-    </a>
-
-    <nav aria-label="Primary navigation" class="main-nav" id="main-nav">
-      <a href="../about/">About Us</a>
-      <a class="js-form-modal" data-modal-title="Refinance" href="https://refinance-rate-checker-wcl-greg-deskin.secure-clix.com/">Refinance</a>
-      <a class="js-form-modal" data-modal-title="HELOC Eligibility" href="https://heloc-eligibility-checker-wcl-greg-deskin.secure-clix.com/">HELOC</a>
-      <a href="../loan-types/">Loan Options</a>
-      <a href="../contact/">Contact Us</a>
-    </nav>
-
-    <a aria-label="Call Greg Deskin at 949 864 8178" class="header-phone" href="tel:+19498648178">
-      <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewbox="0 0 24 24">
-        <circle cx="12" cy="12" r="9"></circle>
-        <path d="M8.5 12h7"></path>
-      </svg>
-      <span>(949) 864-8178</span>
-    </a>
-
-    <a class="btn btn-sm header-apply" href="https://westcaplending.loanzify.io/" rel="noopener" target="_blank">Apply Now</a>
-    <button aria-controls="main-nav" aria-expanded="false" aria-label="Open navigation" class="menu-toggle" id="menu-toggle"><span></span></button>
-  </div>
-</header>
-
-<main id="main-content">
-  <section class="page-hero contact-hero">
-    <div class="container">
-      <nav aria-label="Breadcrumb" class="breadcrumbs">
-        <a href="../">Home</a><span>›</span><span aria-current="page">Contact Greg</span>
-      </nav>
-      <p class="kicker">Direct mortgage help</p>
-      <h1>Let’s talk about your mortgage goals</h1>
-      <p class="lead">Call, email or send the short form below. Greg’s team will review your request and follow up using your preferred contact time.</p>
-    </div>
-  </section>
-
-  <section class="section contact-section">
-    <div class="container">
-      <div aria-label="Quick contact options" class="contact-quick-actions">
-        <a class="contact-quick-card" href="tel:+19498648178">
-          <span class="contact-quick-icon">☎</span>
-          <span><small>Call Greg</small><strong>(949) 864-8178</strong></span>
-          <b aria-hidden="true">›</b>
+    <header class="site-header" data-header="">
+      <div class="container header-inner">
+        <a aria-label="Greg Deskin home" class="brand" href="../">
+          <picture>
+            <source
+              srcset="../assets/img/greg-deskin-logo.webp"
+              type="image/webp"
+            />
+            <img
+              alt="Greg Deskin Mortgage and Real Estate"
+              height="240"
+              src="../assets/img/greg-deskin-logo.png"
+              width="720"
+            />
+          </picture>
         </a>
 
-        <a class="contact-quick-card" href="mailto:GDeskin@WestCapitalLending.com">
-          <span class="contact-quick-icon">✉</span>
-          <span><small>Business email</small><strong>GDeskin@WestCapitalLending.com</strong></span>
-          <b aria-hidden="true">›</b>
-        </a>
+        <nav aria-label="Primary navigation" class="main-nav" id="main-nav">
+          <a href="../about/">About Us</a>
+          <a
+            class="js-form-modal"
+            data-modal-title="Refinance"
+            href="https://refinance-rate-checker-wcl-greg-deskin.secure-clix.com/"
+            >Refinance</a
+          >
+          <a
+            class="js-form-modal"
+            data-modal-title="HELOC Eligibility"
+            href="https://heloc-eligibility-checker-wcl-greg-deskin.secure-clix.com/"
+            >HELOC</a
+          >
+          <a href="../loan-types/">Loan Options</a>
+          <a href="../contact/">Contact Us</a>
+        </nav>
 
-        <a class="contact-quick-card" href="https://westcaplending.loanzify.io/" rel="noopener" target="_blank">
-          <span class="contact-quick-icon">✓</span>
-          <span><small>Ready to move forward?</small><strong>Start an application</strong></span>
-          <b aria-hidden="true">›</b>
-        </a>
-      </div>
-
-      <div class="contact-main-layout">
-        <form action="/api/contact" class="contact-friendly-form" data-lead-form="" id="lead-form" method="POST" data-form-kind="lead">
-          <input name="form_type" type="hidden" value="lead"/>
-          <input autocomplete="off" class="honeypot" name="_honey" tabindex="-1" type="text"/>
-
-          <div class="contact-form-heading">
-            <p class="kicker">One simple request</p>
-            <h2>Request a consultation</h2>
-            <p>This is a contact request, not a loan application. Please do not include Social Security numbers or sensitive financial information.</p>
-          </div>
-
-          <div class="form-grid">
-            <div class="form-group">
-              <label for="contact-name">Full name</label>
-              <input autocomplete="name" id="contact-name" name="name" placeholder="Your full name" required=""/>
-            </div>
-
-            <div class="form-group">
-              <label for="contact-phone">Phone</label>
-              <input autocomplete="tel" id="contact-phone" inputmode="tel" name="phone" placeholder="(555) 555-5555" required="" type="tel"/>
-            </div>
-
-            <div class="form-group">
-              <label for="contact-email">Email</label>
-              <input autocomplete="email" id="contact-email" name="email" placeholder="you@example.com" required="" type="email"/>
-            </div>
-
-            <div class="form-group">
-              <label for="contact-purpose">Loan purpose</label>
-              <select id="contact-purpose" name="loan_purpose" required="">
-                <option value="">Select one</option>
-                <option>Buy a home</option>
-                <option>Refinance</option>
-                <option>Home equity / HELOC</option>
-                <option>Investment or commercial</option>
-                <option>Not sure yet</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="contact-time">Best time to contact</label>
-              <select id="contact-time" name="best_time" required="">
-                <option value="">Select a time</option>
-                <option>Morning</option>
-                <option>Afternoon</option>
-                <option>Evening</option>
-                <option>Any time</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="contact-date">Preferred date (optional)</label>
-              <input id="contact-date" name="preferred_date" type="date"/>
-            </div>
-
-            <div class="form-group full">
-              <button class="btn btn-lg btn-block" type="submit">Send My Request</button>
-            </div>
-          </div>
-
-          <p class="contact-form-feedback" data-form-feedback="" hidden role="status" aria-live="polite" aria-atomic="true"></p>
-        </form>
-
-        <aside class="contact-support-panel">
-          <p class="kicker">What happens next</p>
-          <h2>A simple, no-pressure first conversation</h2>
-
-          <ol class="contact-steps">
-            <li>
-              <span>1</span>
-              <div>
-                <strong>We review your request</strong>
-                <p>Greg’s team checks your goal and preferred contact time.</p>
-              </div>
-            </li>
-            <li>
-              <span>2</span>
-              <div>
-                <strong>We contact you</strong>
-                <p>You receive a call or email to clarify the property, timing and questions.</p>
-              </div>
-            </li>
-            <li>
-              <span>3</span>
-              <div>
-                <strong>You decide the next step</strong>
-                <p>There is no obligation to submit a loan application from this form.</p>
-              </div>
-            </li>
-          </ol>
-
-          <div class="contact-office-card">
-            <h3>Office &amp; licensing</h3>
-            <p>17911 Von Karman Ave, Suite 400<br/>Irvine, CA 92614</p>
-            <p><strong>Greg:</strong> NMLS 1883221, CA DRE 02373263<br/><strong>Company:</strong> NMLS 1566096, DRE 02022356</p>
-            <a href="/licensing/">View company licensing ›</a>
-          </div>
-        </aside>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <a aria-label="Greg Deskin home" class="footer-logo" href="../">
-      <img alt="Greg Deskin Mortgage and Real Estate" height="240" src="../assets/img/greg-deskin-logo.webp" width="720"/>
-    </a>
-
-    <div class="footer-top">
-      <div class="footer-mission">
-        <p>Our mission is to serve our customers with honesty, integrity and competence. Our goal is to provide home loans to our clients while providing them with the lowest interest rates and closing costs possible. Furthermore, we pledge to help borrowers overcome roadblocks that can arise while securing a loan.</p>
-      </div>
-
-      <div>
-        <h3>About Us</h3>
-        <ul>
-          <li><a href="../about/">About Greg</a></li>
-          <li><a href="../contact/">Contact Us</a></li>
-          <li><a href="../ada/">ADA Accessibility Statement</a></li>
-          <li><a href="#lead-form">Schedule a Consultation</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h3>Loan Programs</h3>
-        <ul>
-          <li><a href="/loan-types/conventional/">Conventional</a></li>
-          <li><a href="../loan-types/fha/">FHA</a></li>
-          <li><a href="../loan-types/va/">VA</a></li>
-          <li><a href="../loan-types/investment-commercial/">Non-QM</a></li>
-          <li><a class="js-form-modal" data-modal-title="Interest Only Loans" href="https://mortgage-rate-quote-wcl-greg-deskin.secure-clix.com/">Interest Only</a></li>
-          <li><a class="js-form-modal" data-modal-title="Reverse Mortgage" href="https://reverse-mortgage-quote-wcl-greg-deskin.secure-clix.com/">Reverse Mortgage</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h3>Company Info</h3>
-        <ul>
-          <li>NMLS# 1566096</li>
-          <li>DRE# 02022356</li>
-          <li><a href="tel:+19498648178">Phone: (949) 864-8178</a></li>
-          <li><a href="mailto:GDeskin@WestCapitalLending.com">Email: GDeskin@WestCapitalLending.com</a></li>
-          <li><a href="/reviews/google/">Google Reviews</a></li>
-          <li><a href="/reviews/experience/">Experience.com Reviews</a></li>
-          <li><a href="../licensing/">Licensing</a></li>
-          <li><a href="/licensing/">Licensing Information</a></li>
-          <li><a href="/privacy-policy/">Privacy Policy</a></li>
-          <li><a href="/terms-of-use/">Terms of Use</a></li>
-          <li><a href="/sms-terms-conditions/">SMS Terms &amp; Conditions</a></li>
-          <li><a href="../cookie-policy/">Cookie Policy</a></li>
-          <li><a data-cookiebot-renew="" href="#">Do Not Sell or Share My Personal Information</a></li>
-          <li><a href="/texas-complaint-recovery-fund-notice/">Texas Complaint/Recovery Fund Notice</a></li>
-          <li>Address:<br/>17911 Von Karman Ave, Suite 400,<br/>Irvine CA 92614</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="footer-disclosures">
-      <p>Approval may be granted in five minutes but is ultimately subject to verification of income and employment, as well as verification that your property is in at least average condition with a property condition report. Five business day funding timeline assumes closing the loan with our remote online notary, and where loan amounts are under $400,000 which would not require an appraisal. Funding timelines may be longer for loans secured by properties located in counties that do not permit recording of e-signatures or that otherwise require an in-person closing, or that require a waiting period prior to closing, or where loan amounts exceed $400,000.</p>
-      <p>The Fixed Rate Home Equity Line is an open-end product where the full loan amount minus the origination fee will be 100% drawn at the time of origination. The initial amount funded at origination will be based on a fixed rate; however, this product contains an additional draw feature. As the borrower repays the balance on the line, the borrower may make additional draws during the draw period. If the borrower elects to make an additional draw, the interest rate for that draw will be set as of the date of the draw and will be based on an Index, which is the Prime Rate published in the Wall Street Journal for the calendar month preceding the date of the additional draw, plus a fixed margin. Accordingly, the fixed rate for any additional draw may be higher than the fixed rate for the initial draw.</p>
-    </div>
-
-    <div class="footer-bottom">
-      <p><a href="/licensing/">License Information</a> - For complete license information, visit our Licensing Page.</p>
-      <p>WCL is an Equal Housing Lender. As prohibited by federal law, we do not engage in business practices that discriminate based on race, color, religion, national origin, sex, marital status, age provided you have the capacity to enter enter into a binding contract because all or part of your income may be derived from any public assistance program, or because you have, in good faith, exercised any right under the Consumer Credit Protection Act. The federal agency that administers our compliance with these federal laws is the Federal Trade Commission, Equal Credit Opportunity, Washington, DC, 20580.</p>
-
-      <div class="footer-bottom-links">
-        <a class="footer-trust-link" href="/verification/nmls/"><span class="footer-trust-badge">NMLS</span><span>NMLS Licensing Summary</span></a>
-        <span class="equal-housing">
-          <svg aria-hidden="true" class="equal-housing-icon" fill="none" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10 45 50 12l40 33M22 42v42h56V42M35 54h30M35 68h30" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"></path>
+        <a
+          aria-label="Call Greg Deskin at 949 864 8178"
+          class="header-phone"
+          href="tel:+19498648178"
+        >
+          <svg
+            aria-hidden="true"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            viewbox="0 0 24 24"
+          >
+            <circle cx="12" cy="12" r="9"></circle>
+            <path d="M8.5 12h7"></path>
           </svg>
-          <span>Equal Housing Lender</span>
-        </span>
+          <span>(949) 864-8178</span>
+        </a>
+
+        <a
+          class="btn btn-sm header-apply"
+          href="https://westcaplending.loanzify.io/"
+          rel="noopener"
+          target="_blank"
+          >Apply Now</a
+        >
+        <button
+          aria-controls="main-nav"
+          aria-expanded="false"
+          aria-label="Open navigation"
+          class="menu-toggle"
+          id="menu-toggle"
+        >
+          <span></span>
+        </button>
       </div>
+    </header>
 
-      <p>Copyright © <span data-year="">2026</span> gregdeskin. All Rights Reserved. | NMLS# 1566096 DRE# 02022356</p>
+    <main id="main-content">
+      <section class="page-hero contact-hero">
+        <div class="container">
+          <nav aria-label="Breadcrumb" class="breadcrumbs">
+            <a href="../">Home</a><span>›</span
+            ><span aria-current="page">Contact Greg</span>
+          </nav>
+          <p class="kicker">Direct mortgage help</p>
+          <h1>Let’s talk about your mortgage goals</h1>
+          <p class="lead">
+            Call, email or send the short form below. Greg’s team will review
+            your request and follow up using your preferred contact time.
+          </p>
+        </div>
+      </section>
+
+      <section class="section contact-section">
+        <div class="container">
+          <div aria-label="Quick contact options" class="contact-quick-actions">
+            <a class="contact-quick-card" href="tel:+19498648178">
+              <span class="contact-quick-icon">☎</span>
+              <span
+                ><small>Call Greg</small><strong>(949) 864-8178</strong></span
+              >
+              <b aria-hidden="true">›</b>
+            </a>
+
+            <a class="contact-quick-card" href="mailto:Info@GregDeskin.com">
+              <span class="contact-quick-icon">✉</span>
+              <span
+                ><small>Business email</small
+                ><strong>Info@GregDeskin.com</strong></span
+              >
+              <b aria-hidden="true">›</b>
+            </a>
+
+            <a
+              class="contact-quick-card"
+              href="https://westcaplending.loanzify.io/"
+              rel="noopener"
+              target="_blank"
+            >
+              <span class="contact-quick-icon">✓</span>
+              <span
+                ><small>Ready to move forward?</small
+                ><strong>Start an application</strong></span
+              >
+              <b aria-hidden="true">›</b>
+            </a>
+          </div>
+
+          <div class="contact-main-layout">
+            <form
+              action="/api/contact"
+              class="contact-friendly-form"
+              data-lead-form=""
+              id="lead-form"
+              method="POST"
+              data-form-kind="lead"
+            >
+              <input name="form_type" type="hidden" value="lead" />
+              <input
+                autocomplete="off"
+                class="honeypot"
+                name="_honey"
+                tabindex="-1"
+                type="text"
+              />
+
+              <div class="contact-form-heading">
+                <p class="kicker">One simple request</p>
+                <h2>Request a consultation</h2>
+                <p>
+                  This is a contact request, not a loan application. Please do
+                  not include Social Security numbers or sensitive financial
+                  information.
+                </p>
+              </div>
+
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="contact-name">Full name</label>
+                  <input
+                    autocomplete="name"
+                    id="contact-name"
+                    name="name"
+                    placeholder="Your full name"
+                    required=""
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-phone">Phone</label>
+                  <input
+                    autocomplete="tel"
+                    id="contact-phone"
+                    inputmode="tel"
+                    name="phone"
+                    placeholder="(555) 555-5555"
+                    required=""
+                    type="tel"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email">Email</label>
+                  <input
+                    autocomplete="email"
+                    id="contact-email"
+                    name="email"
+                    placeholder="you@example.com"
+                    required=""
+                    type="email"
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-purpose">Loan purpose</label>
+                  <select id="contact-purpose" name="loan_purpose" required="">
+                    <option value="">Select one</option>
+                    <option>Buy a home</option>
+                    <option>Refinance</option>
+                    <option>Home equity / HELOC</option>
+                    <option>Investment or commercial</option>
+                    <option>Not sure yet</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-time">Best time to contact</label>
+                  <select id="contact-time" name="best_time" required="">
+                    <option value="">Select a time</option>
+                    <option>Morning</option>
+                    <option>Afternoon</option>
+                    <option>Evening</option>
+                    <option>Any time</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-date">Preferred date (optional)</label>
+                  <input id="contact-date" name="preferred_date" type="date" />
+                </div>
+
+                <div class="form-group full">
+                  <button class="btn btn-lg btn-block" type="submit">
+                    Send My Request
+                  </button>
+                </div>
+              </div>
+
+              <p
+                class="contact-form-feedback"
+                data-form-feedback=""
+                hidden
+                role="status"
+                aria-live="polite"
+                aria-atomic="true"
+              ></p>
+            </form>
+
+            <aside class="contact-support-panel">
+              <p class="kicker">What happens next</p>
+              <h2>A simple, no-pressure first conversation</h2>
+
+              <ol class="contact-steps">
+                <li>
+                  <span>1</span>
+                  <div>
+                    <strong>We review your request</strong>
+                    <p>
+                      Greg’s team checks your goal and preferred contact time.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span>2</span>
+                  <div>
+                    <strong>We contact you</strong>
+                    <p>
+                      You receive a call or email to clarify the property,
+                      timing and questions.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <span>3</span>
+                  <div>
+                    <strong>You decide the next step</strong>
+                    <p>
+                      There is no obligation to submit a loan application from
+                      this form.
+                    </p>
+                  </div>
+                </li>
+              </ol>
+
+              <div class="contact-office-card">
+                <h3>Office &amp; licensing</h3>
+                <p>17911 Von Karman Ave, Suite 400<br />Irvine, CA 92614</p>
+                <p>
+                  <strong>Greg:</strong> NMLS 1883221, CA DRE 02373263<br /><strong
+                    >Company:</strong
+                  >
+                  NMLS 1566096, DRE 02022356
+                </p>
+                <a href="/licensing/">View company licensing ›</a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <a aria-label="Greg Deskin home" class="footer-logo" href="../">
+          <img
+            alt="Greg Deskin Mortgage and Real Estate"
+            height="240"
+            src="../assets/img/greg-deskin-logo.webp"
+            width="720"
+          />
+        </a>
+
+        <div class="footer-top">
+          <div class="footer-mission">
+            <p>
+              Our mission is to serve our customers with honesty, integrity and
+              competence. Our goal is to provide home loans to our clients while
+              providing them with the lowest interest rates and closing costs
+              possible. Furthermore, we pledge to help borrowers overcome
+              roadblocks that can arise while securing a loan.
+            </p>
+          </div>
+
+          <div>
+            <h3>About Us</h3>
+            <ul>
+              <li><a href="../about/">About Greg</a></li>
+              <li><a href="../contact/">Contact Us</a></li>
+              <li><a href="../ada/">ADA Accessibility Statement</a></li>
+              <li><a href="#lead-form">Schedule a Consultation</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Loan Programs</h3>
+            <ul>
+              <li><a href="/loan-types/conventional/">Conventional</a></li>
+              <li><a href="../loan-types/fha/">FHA</a></li>
+              <li><a href="../loan-types/va/">VA</a></li>
+              <li><a href="../loan-types/investment-commercial/">Non-QM</a></li>
+              <li>
+                <a
+                  class="js-form-modal"
+                  data-modal-title="Interest Only Loans"
+                  href="https://mortgage-rate-quote-wcl-greg-deskin.secure-clix.com/"
+                  >Interest Only</a
+                >
+              </li>
+              <li>
+                <a
+                  class="js-form-modal"
+                  data-modal-title="Reverse Mortgage"
+                  href="https://reverse-mortgage-quote-wcl-greg-deskin.secure-clix.com/"
+                  >Reverse Mortgage</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Company Info</h3>
+            <ul>
+              <li>NMLS# 1566096</li>
+              <li>DRE# 02022356</li>
+              <li><a href="tel:+19498648178">Phone: (949) 864-8178</a></li>
+              <li>
+                <a href="mailto:Info@GregDeskin.com"
+                  >Email: Info@GregDeskin.com</a
+                >
+              </li>
+              <li><a href="/reviews/google/">Google Reviews</a></li>
+              <li><a href="/reviews/experience/">Experience.com Reviews</a></li>
+              <li><a href="../licensing/">Licensing</a></li>
+              <li><a href="/licensing/">Licensing Information</a></li>
+              <li><a href="/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="/terms-of-use/">Terms of Use</a></li>
+              <li>
+                <a href="/sms-terms-conditions/">SMS Terms &amp; Conditions</a>
+              </li>
+              <li><a href="../cookie-policy/">Cookie Policy</a></li>
+              <li>
+                <a data-cookiebot-renew="" href="#"
+                  >Do Not Sell or Share My Personal Information</a
+                >
+              </li>
+              <li>
+                <a href="/texas-complaint-recovery-fund-notice/"
+                  >Texas Complaint/Recovery Fund Notice</a
+                >
+              </li>
+              <li>
+                Address:<br />17911 Von Karman Ave, Suite 400,<br />Irvine CA
+                92614
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-disclosures">
+          <p>
+            Approval may be granted in five minutes but is ultimately subject to
+            verification of income and employment, as well as verification that
+            your property is in at least average condition with a property
+            condition report. Five business day funding timeline assumes closing
+            the loan with our remote online notary, and where loan amounts are
+            under $400,000 which would not require an appraisal. Funding
+            timelines may be longer for loans secured by properties located in
+            counties that do not permit recording of e-signatures or that
+            otherwise require an in-person closing, or that require a waiting
+            period prior to closing, or where loan amounts exceed $400,000.
+          </p>
+          <p>
+            The Fixed Rate Home Equity Line is an open-end product where the
+            full loan amount minus the origination fee will be 100% drawn at the
+            time of origination. The initial amount funded at origination will
+            be based on a fixed rate; however, this product contains an
+            additional draw feature. As the borrower repays the balance on the
+            line, the borrower may make additional draws during the draw period.
+            If the borrower elects to make an additional draw, the interest rate
+            for that draw will be set as of the date of the draw and will be
+            based on an Index, which is the Prime Rate published in the Wall
+            Street Journal for the calendar month preceding the date of the
+            additional draw, plus a fixed margin. Accordingly, the fixed rate
+            for any additional draw may be higher than the fixed rate for the
+            initial draw.
+          </p>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            <a href="/licensing/">License Information</a> - For complete license
+            information, visit our Licensing Page.
+          </p>
+          <p>
+            WCL is an Equal Housing Lender. As prohibited by federal law, we do
+            not engage in business practices that discriminate based on race,
+            color, religion, national origin, sex, marital status, age provided
+            you have the capacity to enter enter into a binding contract because
+            all or part of your income may be derived from any public assistance
+            program, or because you have, in good faith, exercised any right
+            under the Consumer Credit Protection Act. The federal agency that
+            administers our compliance with these federal laws is the Federal
+            Trade Commission, Equal Credit Opportunity, Washington, DC, 20580.
+          </p>
+
+          <div class="footer-bottom-links">
+            <a class="footer-trust-link" href="/verification/nmls/"
+              ><span class="footer-trust-badge">NMLS</span
+              ><span>NMLS Licensing Summary</span></a
+            >
+            <span class="equal-housing">
+              <svg
+                aria-hidden="true"
+                class="equal-housing-icon"
+                fill="none"
+                viewbox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10 45 50 12l40 33M22 42v42h56V42M35 54h30M35 68h30"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="7"
+                ></path>
+              </svg>
+              <span>Equal Housing Lender</span>
+            </span>
+          </div>
+
+          <p>
+            Copyright © <span data-year="">2026</span> gregdeskin. All Rights
+            Reserved. | NMLS# 1566096 DRE# 02022356
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div aria-label="Quick contact actions" class="mobile-cta">
+      <a class="btn btn-outline" href="tel:+19498648178">Call Greg</a>
+      <a
+        class="btn"
+        href="https://westcaplending.loanzify.io/"
+        rel="noopener"
+        target="_blank"
+        >Apply Now</a
+      >
     </div>
-  </div>
-</footer>
 
-<div aria-label="Quick contact actions" class="mobile-cta">
-  <a class="btn btn-outline" href="tel:+19498648178">Call Greg</a>
-  <a class="btn" href="https://westcaplending.loanzify.io/" rel="noopener" target="_blank">Apply Now</a>
-</div>
-
-<div aria-hidden="true" aria-labelledby="video-title" aria-modal="true" class="modal-backdrop" id="video-modal" role="dialog">
-  <div class="modal">
-    <div class="modal-head">
-      <h2 id="video-title">Meet Greg Deskin</h2>
-      <button aria-label="Close video" class="modal-close" data-close-modal="">×</button>
+    <div
+      aria-hidden="true"
+      aria-labelledby="video-title"
+      aria-modal="true"
+      class="modal-backdrop"
+      id="video-modal"
+      role="dialog"
+    >
+      <div class="modal">
+        <div class="modal-head">
+          <h2 id="video-title">Meet Greg Deskin</h2>
+          <button
+            aria-label="Close video"
+            class="modal-close"
+            data-close-modal=""
+          >
+            ×
+          </button>
+        </div>
+        <div class="modal-body" id="video-modal-body"></div>
+      </div>
     </div>
-    <div class="modal-body" id="video-modal-body"></div>
-  </div>
-</div>
 
-<script>
-(() => {
-  const form = document.querySelector('#lead-form');
-  if (!form) return;
+    <script>
+      (() => {
+        const form = document.querySelector("#lead-form");
+        if (!form) return;
 
-  // Prevent the deferred global script from adding a second submit handler.
-  form.dataset.wired = 'true';
+        // Prevent the deferred global script from adding a second submit handler.
+        form.dataset.wired = "true";
 
-  const feedback = form.querySelector('[data-form-feedback]');
-  const button = form.querySelector('button[type="submit"]');
-  const preferredDate = form.querySelector('[name="preferred_date"]');
+        const feedback = form.querySelector("[data-form-feedback]");
+        const button = form.querySelector('button[type="submit"]');
+        const preferredDate = form.querySelector('[name="preferred_date"]');
 
-  const now = new Date();
-  preferredDate.min = [
-    now.getFullYear(),
-    String(now.getMonth() + 1).padStart(2, '0'),
-    String(now.getDate()).padStart(2, '0')
-  ].join('-');
+        const now = new Date();
+        preferredDate.min = [
+          now.getFullYear(),
+          String(now.getMonth() + 1).padStart(2, "0"),
+          String(now.getDate()).padStart(2, "0"),
+        ].join("-");
 
-  function showFeedback(type, message) {
-    feedback.className = 'contact-form-feedback is-' + type;
-    feedback.textContent = message;
-    feedback.hidden = false;
-  }
+        function showFeedback(type, message) {
+          feedback.className = "contact-form-feedback is-" + type;
+          feedback.textContent = message;
+          feedback.hidden = false;
+        }
 
-  form.addEventListener('invalid', () => {
-    showFeedback('error', 'Please complete the required fields before submitting.');
-  }, true);
-
-  form.addEventListener('submit', async event => {
-    event.preventDefault();
-
-    if (form.dataset.sending === 'true') return;
-    if (form.querySelector('[name="_honey"]').value) return;
-    if (!form.reportValidity()) return;
-
-    const originalLabel = button.textContent;
-    form.dataset.sending = 'true';
-    button.disabled = true;
-    button.textContent = 'Sending…';
-    feedback.hidden = true;
-
-    try {
-      const payload = Object.fromEntries(new FormData(form).entries());
-
-      // The existing email template includes best_time. Include the optional
-      // date there so it reaches Greg without changing the server.
-      if (payload.preferred_date) {
-        payload.best_time += ' on ' + payload.preferred_date;
-      }
-
-      payload.source_page = window.location.pathname;
-
-      const response = await fetch(form.action, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        },
-        body: JSON.stringify(payload)
-      });
-
-      const result = await response.json().catch(() => ({}));
-
-      if (!response.ok || result.message !== 'Request received') {
-        throw new Error(
-          response.ok
-            ? 'The server did not confirm delivery.'
-            : (result.message || 'The request could not be delivered.')
+        form.addEventListener(
+          "invalid",
+          () => {
+            showFeedback(
+              "error",
+              "Please complete the required fields before submitting.",
+            );
+          },
+          true,
         );
-      }
 
-      form.reset();
-      showFeedback(
-        'success',
-        'Your request was sent successfully. Greg’s team will contact you soon.'
-      );
-    } catch (error) {
-      showFeedback(
-        'error',
-        (error.message || 'The request could not be delivered.') +
-          ' Please try again or call (949) 864-8178.'
-      );
-    } finally {
-      delete form.dataset.sending;
-      button.disabled = false;
-      button.textContent = originalLabel;
-    }
-  });
-})();
-</script>
-</body>
+        form.addEventListener("submit", async (event) => {
+          event.preventDefault();
+
+          if (form.dataset.sending === "true") return;
+          if (form.querySelector('[name="_honey"]').value) return;
+          if (!form.reportValidity()) return;
+
+          const originalLabel = button.textContent;
+          form.dataset.sending = "true";
+          button.disabled = true;
+          button.textContent = "Sending…";
+          feedback.hidden = true;
+
+          try {
+            const payload = Object.fromEntries(new FormData(form).entries());
+
+            // The existing email template includes best_time. Include the optional
+            // date there so it reaches Greg without changing the server.
+            if (payload.preferred_date) {
+              payload.best_time += " on " + payload.preferred_date;
+            }
+
+            payload.source_page = window.location.pathname;
+
+            const response = await fetch(form.action, {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+              },
+              body: JSON.stringify(payload),
+            });
+
+            const result = await response.json().catch(() => ({}));
+
+            if (!response.ok || result.message !== "Request received") {
+              throw new Error(
+                response.ok
+                  ? "The server did not confirm delivery."
+                  : result.message || "The request could not be delivered.",
+              );
+            }
+
+            form.reset();
+            showFeedback(
+              "success",
+              "Your request was sent successfully. Greg’s team will contact you soon.",
+            );
+          } catch (error) {
+            showFeedback(
+              "error",
+              (error.message || "The request could not be delivered.") +
+                " Please try again or call (949) 864-8178.",
+            );
+          } finally {
+            delete form.dataset.sending;
+            button.disabled = false;
+            button.textContent = originalLabel;
+          }
+        });
+      })();
+    </script>
+  </body>
 </html>

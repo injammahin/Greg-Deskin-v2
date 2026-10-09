@@ -19,7 +19,7 @@ The complete 24-link conversion is documented in `INTERNAL-PAGE-MAP.md`.
 
 ## Configure form delivery
 
-The included `.env` is a fill-in template. Add a **Brevo API key** to `BREVO_API_KEY`; a Brevo SMTP key will not work. Verify `BREVO_SENDER_EMAIL` or its domain in Brevo. The delivery address for every on-site form is set in only one place: `CONTACT_RECIPIENT_EMAIL`. The included value is `GDeskin@WestCapitalLending.com`.
+The included `.env` is a fill-in template. Add a **Brevo API key** to `BREVO_API_KEY`; a Brevo SMTP key will not work. Verify `BREVO_SENDER_EMAIL` or its domain in Brevo. The delivery address for every on-site form is set in only one place: `CONTACT_RECIPIENT_EMAIL`. The included value is `Info@GregDeskin.com`.
 
 Production: set the same four variables in your Vercel or Netlify project settings. The build only publishes `dist/`, which excludes `.env` and the server code. Never put the Brevo API key in `assets/js/site-config.js`, HTML, or a public environment variable.
 
